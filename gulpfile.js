@@ -18,7 +18,7 @@ gulp.task('sass:watch', function () {
 
 gulp.task('cuat', function() {
 	var base = config.name;
-	var nodeModulesUrl = 'http://wpc-stage.com/production/kitchenaid/refer-landing'
+	var nodeModulesUrl = 'http://wpc-stage.com/production/whirlpool/refer-landing'
 	var tasks  = []
 
 	tasks.push(gulp.src('./app/**/*.+(js|html)')

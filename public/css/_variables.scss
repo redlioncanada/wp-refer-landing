@@ -2,22 +2,23 @@ $appWidth: 944px;
 $mobileBreakpoint: 820px;
 
 $linkColor: #FFFFFF;
+$accentColor: #eeb111;
+$titleColor: #313131;
 
-$titleColor: #cc0000;
+$features-copyColor: #898989;
 
-$features-copyColor: #FFFFFF;
-
-$videoPlayer-backgroundColor: #000000;
+$videoPlayer-backgroundColor: #FFFFFF;
 $videoPlayer-copyColor: #FFFFFF;
+$videoPlayer-descColor: $titleColor;
 
 $learnMoreTextColor: $linkColor;
-$learnMoreBackgroundColor: $titleColor;
+$learnMoreBackgroundColor: $accentColor;
 
 $moreFeaturesTitlesColor: #000000;
 
-$selectorTextColor: #000000;
-$selectorHighlightedTextColor: #FFFFFF;
-$selectorBackgroundColor: #cc0000;
-$selectorCTAColor: #959595;
+$selectorTextColor: #898989;
+$selectorHighlightedTextColor: $accentColor;
+$selectorBackgroundColor: #000000;
+$selectorCTAColor: $accentColor;
 
-$moreFeaturesBackgroundColor: #cc0000;
+$moreFeaturesBackgroundColor: #000000;

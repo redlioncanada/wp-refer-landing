@@ -9,6 +9,7 @@ learn-more-button {
 	background-color: $learnMoreBackgroundColor;
 	@include transition(0.2s);
     font-weight: 300;
+    border-radius: 15px;
     @media screen and (max-width: 685px) {
         font-size: .7em !important;
     }

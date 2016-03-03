@@ -1,39 +1,33 @@
 more-features {
-	padding: 50px 0 70px 0;
+	padding: 0px 0 70px 0;
 	overflow: hidden;
+	top: 35px;
 
 	h2 {
 		@include header-text;
-		padding: 50px;
+		padding: 0px 0 20px 0;
         @media screen and (max-width: 685px) {
-        
-                font-size: 2em;
-         
+            font-size: 2em;
         }
 	}
 
 	more-features-feature {
-		margin: 0 2px;
+		padding: 0 5px;
 	}
 
 	more-features-feature:first-of-type {
-		margin-left: initial;
+		padding-left: initial;
 	}
 
 	more-features-feature:last-of-type {
-		margin-right: initial;
+		padding-right: initial;
 	}
 }
 
 more-features-feature {
-	width: 32.5%;
+	width: 33.33333333333%;
 	float: left;
 	display: table;
-	cursor: default;
-
-	* {
-		cursor: default !important;
-	}
 
 	.hover {
 		position: relative;
@@ -66,7 +60,7 @@ more-features-feature {
 	  max-width: 50%;
 
 	  .cta {
-	  	@include Avenir-Bold;
+	  	@include Helvetica-Bold;
 	  	margin-top: 5px;
 	  }
 

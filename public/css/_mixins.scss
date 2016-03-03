@@ -1,17 +1,21 @@
-@mixin Avenir-Light() {
-	font-family: 'Avenir-Light', Helvetica, Arial, sans-serif;
+@mixin Helvetica() {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200;
 }
 
-@mixin Avenir-Bold() {
-	font-family: 'Avenir-Black', Helvetica, Arial, sans-serif;
+@mixin Helvetica-Medium() {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+
+@mixin Helvetica-Bold() {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 800;
 }
 
 @mixin header-text() {
 	font-size: 3em;
-	text-transform: uppercase;
 	text-align: center;
-	font-weight: 800;
 	width: 100%;
 }
 

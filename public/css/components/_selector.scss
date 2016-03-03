@@ -8,7 +8,6 @@ product-selector {
     
     h2{
         font-size: 3em;
-        text-transform: uppercase;
         text-align: center;
         font-weight: 800;
         width: 100%;
@@ -88,7 +87,6 @@ product-selector {
         font-weight: 300;
         font-size: 32px;
         color: #000000!important;
-        text-transform: uppercase;
         opacity: 0;
         line-height: 30px;
 
@@ -101,8 +99,8 @@ product-selector {
         position: absolute;
         left: 490px;
         top: 325px;
-        width: 115px;
-        height: 30px;
+        width: 135px;
+        height: 40px;
         opacity: 0;
 
         @media screen and (max-width: 1366px) {
@@ -172,6 +170,7 @@ product-selector-nav {
     position: relative;
     display: block;
     top: 70px;
+    height: 300px;
 
     .row {
         position: relative;
@@ -209,19 +208,34 @@ product-selector-nav {
     }
 
     .ka-refer-landing-button {
-        margin-top: 20px;
+        margin-top: 10px;
         height: 25px;
         display: table;
         color: $selectorTextColor;
-        border: 2px solid $selectorBackgroundColor;
         width: 100%;
         @include transition(0.2s);
 
+        .ka-refer-landing-button-circle {
+            width: 100%;
+            height: 18px;
+            margin-bottom: 10px;
+
+            div {
+                height: inherit;
+                width: 18px;
+                margin: 0 auto;
+                display: block;
+                background-color: $selectorTextColor;
+                border-radius: 10px;
+            }
+        }
+
         p {
             width: 100%;
-            @include centered-table-cell;
             line-height: 13px;
-            font-size: 0.8em;
+            font-size: 1em;
+            font-weight: 400;
+            text-align: center;
         }
     }
 
@@ -231,47 +245,58 @@ product-selector-nav {
         }
 
         .ka-refer-landing-button {
-            background-color: $selectorBackgroundColor;
             color: $selectorHighlightedTextColor !important;
+        }
+
+        .ka-refer-landing-button-circle div {
+            background-color: $selectorHighlightedTextColor !important;
         }
     }
 
     .ka-refer-landing-product.selected {
         .ka-refer-landing-button {
-            background-color: $selectorBackgroundColor;
             color: $selectorHighlightedTextColor;
+        }
+
+        .ka-refer-landing-button-circle div {
+            background-color: $selectorHighlightedTextColor;
         }
     }
 
     .see-all {
+        height: 190px;
         width: 13%;
         margin-left: 1%;
         color: $selectorCTAColor;
-        border: 3px solid $selectorCTAColor;
         text-transform: uppercase;
         display: table;
-        height: 100%;
         padding: 0;
-        height: 190px;
         @include transition(0.2s);
+
+        div {
+            display: table;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 130px;
+            margin-top: 38%;
+            margin-left: 10px;
+            font-weight: 400;
+        }
 
         p {
             @include centered-table-cell;
-            @include transition(0.2s);
+            text-align: center;
+            font-size: 1.3em;
+            line-height: 20px;
         }
+
         @media screen and (max-width: $mobileBreakpoint) {
             clear: left;
             width: 97%;
             height: 40px;
             margin-top: 10px;
         }
-    }
-
-    .see-all:hover {
-         p {
-            color: $selectorHighlightedTextColor;
-            background-color: $selectorBackgroundColor;
-         }
     }
 }
 
@@ -297,7 +322,8 @@ product-selector.fr {
     product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
             div .ka-refer-landing-button p {
-                font-size: 0.6em;
+                font-size: 1em;
+                font-weight: 200;
             }
         }
     }
@@ -310,4 +336,14 @@ product-selector.fr {
             }
         }
     }
+}
+
+.product-slide-background {
+    width: 100%;
+    height: 130px;
+    background: url(../images/refer-select-shadow.png);
+    position: absolute;
+    background-position: 0 -280px;
+    top: 310px;
+    left: -90px;
 }

@@ -1,12 +1,8 @@
 videoplayer {
-	padding: 20px 0;
-	overflow: hidden;
-	top: 70px;
-
 	> h2 {
 		@include header-text;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
          @media screen and (max-width: $mobileBreakpoint) {
          
                 font-size: 2em;
@@ -15,6 +11,7 @@ videoplayer {
 	}
     
     h2.ka-refer-landing-videoplayer-title{
+    	@include header-text;
          @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 1em;
          }
@@ -27,7 +24,6 @@ videoplayer {
 			float: left;
 			width: 33.333333333%;
 			padding: 0 5px;
-			background-color: #000000;
 		}
 
 		li:last-child {
@@ -41,6 +37,11 @@ videoplayer {
 		li:nth-child(2) img {
 			width: 101.5%;
 		}
+
+		li:nth-child(2) videoplayer-selector .ka-refer-landing-videoplayer-title {
+			margin-top: -60px;
+		}
+
 	}
 }
 
@@ -68,22 +69,18 @@ videoplayer-player {
 		width: 100%;
 		padding: 28px 40px;
 		background-color: $videoPlayer-backgroundColor;
-		color: $videoPlayer-copyColor;
+		color: $videoPlayer-descColor;
 		margin-top: -5px;
-
-		.ka-refer-landing-videoplayer-title {
-			font-weight: 800;
-			text-transform: uppercase;
-		}
 
 		.ka-refer-landing-videoplayer-description, .ka-refer-landing-videoplayer-title {
 			text-align: center;
 		}
         
         .ka-refer-landing-videoplayer-description{
+        	margin-top: 10px;
             @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 66%;
-         }
+         	}
         }
 	}
 }
@@ -105,12 +102,11 @@ videoplayer-selector {
 			top: 50%;
 			text-align: center;
 			color: $videoPlayer-copyColor;
-			text-transform: uppercase;
+			border-radius: 15px;
 		}
 
 		.ka-refer-landing-videoplayer-title {
 			font-size: 2em;
-			font-weight: 800;
 			margin-top: -20px;
 			width: 100%;
 			color: $videoPlayer-copyColor !important;
@@ -126,7 +122,7 @@ videoplayer-selector {
 			top: 60%;
 			width: 32%;
 			margin: 0 auto;
-			background-color: $titleColor;
+			background-color: $accentColor;
 			line-height: 25px;
 			@include transition(0.2s);
             @media screen and (max-width: 785px) {
@@ -148,6 +144,8 @@ videoplayer-selector {
 	> div {
 		position: relative;
 		cursor: pointer;
+		background-color: #000000;
+		overflow: hidden;
 	}
 
 	img {

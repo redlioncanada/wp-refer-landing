@@ -1,0 +1,13 @@
+<div>
+	<ul>
+		<li *ngFor="#video of data; #i=index" class="{{currentId !== i ? 'hide' : 'show'}}">
+			<videoplayer-video [image]="video.image" [id]="video.id" [selected]="currentId == i" [width]="video.width" [height]="video.height"></videoplayer-video>
+		</li>
+	</ul>
+    <div class="ka-refer-landing-videoplayer-text">
+    	<h2 class="ka-refer-landing-videoplayer-title" [innerHTML]="data[currentId].title">
+    	</h2>
+    	<div class="ka-refer-landing-videoplayer-description" [innerHTML]="!!data[currentId].desc ? data[currentId].desc : ''">
+        </div>
+    </div>
+</div>

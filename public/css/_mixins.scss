@@ -1,0 +1,55 @@
+@mixin Avenir-Light() {
+	font-family: 'Avenir-Light', Helvetica, Arial, sans-serif;
+}
+
+@mixin Avenir-Bold() {
+	font-family: 'Avenir-Black', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+}
+
+@mixin header-text() {
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	width: 100%;
+}
+
+@mixin grow($amount) {
+	transform: scale($amount);
+	-webkit-transform: scale($amount);
+}
+
+@mixin transform-reset {
+	transform: initial;
+	-webkit-transform: initial;
+}
+
+@mixin transition($time) {
+	-webkit-transition: all $time ease;
+    -moz-transition: all $time ease;
+    -o-transition: all $time ease;
+    transition: all $time ease;
+}
+
+@mixin transition-reset() {
+	-webkit-transition: initial;
+    -moz-transition: initial;
+    -o-transition: initial;
+    transition: initial;
+}
+
+@mixin centered-table-cell() {
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@mixin mobile-block-element() {
+    position: relative;
+    top: initial;
+    left: initial;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

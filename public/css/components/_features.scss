@@ -1,0 +1,186 @@
+features {
+    .row{
+        width: 100%;
+        height: 300px;
+        float: none;
+    }
+    @media screen and (max-width: 1366px) {
+        height: 180px !important;
+        
+        .row {
+            height: 180px;
+            width: 75%;
+            position: relative;
+            left: 13%;
+        }
+    }
+    @media screen and (max-width: 785px) {
+        .row {    
+            height: 180px;
+            width: 100%;
+            position: relative;
+            left: .3%;
+        }
+    }
+    .ka-landing-feature-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: #CC0000;
+        top: 40px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin: auto;
+        
+        > img {
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        @media screen and (max-width: 1366px) {
+            width: 60px;
+            height: 60px;
+            top: 20px;
+
+            img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+    
+    .ka-landing-feature-title {
+        text-transform: uppercase;
+        width: 100%;
+        top: 165px;
+        text-align: center;
+        color: #CC0000;
+
+        @media screen and (max-width: 1366px) {
+            top: 95px;
+        }
+        @media screen and (max-width: 479px) {
+            font-size: 12px;
+            
+        }
+        
+    }
+
+    .ka-landing-feature-button-over{
+        opacity: 0;
+        z-index: 2;
+        display: table;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        @include transition(0.2s);
+    }
+
+    .ka-landing-feature-copy-container {
+        display: table-cell;
+        color: $features-copyColor;
+        position: relative;
+        height: inherit;
+        width: inherit;
+        vertical-align: middle;
+        padding: 0 14px;
+    }
+
+    .ka-landing-feature-button-over:hover {
+        opacity: .9;
+    }
+
+    .ka-landing-over-copy {
+        font-weight: 100;
+        margin-bottom: 2px;
+    }
+
+    .ka-landing-over-copy, .ka-landing-over-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ka-landing-over-cta {
+        @include Avenir-Bold;
+    }
+
+    .ka-landing-feature-button-over-background {
+        height: 100%;
+        width: 100%;
+        background-color: $titleColor;
+        position: absolute;
+    }
+
+    .ka-landing-feature-button {
+        // width: 33%;
+        width: 49.7%;
+        margin: 2px;
+        float: left;
+        height: 266px;
+        border: solid;
+        border-color: #aaaaaa;
+        border-width: 4px;
+        position: relative;
+        box-sizing: border-box;
+
+        @media screen and (min-width: 922px) {
+            //width: 33%;
+        }
+        @media screen and (max-width: 770px) {
+            margin: 3px;
+
+            //added for removal of buying guide
+            width: 49.3%
+        }
+        @media screen and (max-width: 1366px) {
+            height: 150px;
+            // width: 32%;
+            width: 49%;
+        }
+
+        .ka-landing-feature-button-up {
+            position: relative;
+            z-index: 1;
+        }
+
+        .ka-landing-innerBtn {
+            position: absolute;
+        }
+        
+        .ka-landing-feature-rule {
+            width: 100px;
+            height: 5px;
+            background-color: #CC0000;
+            top: 200px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+
+            @media screen and (max-width: 1366px) {
+                top: 120px;
+                width: 60px;
+            }
+        }
+    }
+
+    feature-button:first-of-type {
+        .ka-landing-feature-button {
+            margin-left: 0px;
+        }
+    }
+
+    feature-button:last-of-type {
+        .ka-landing-feature-button {
+            margin-right: 0px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/Avenir-Black.eot'); /* IE9 Compat Modes */
+  	src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Avenir-Black.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Avenir-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Avenir-Black.svg#3f32b7b0e932d6bbe85d14c9bded23e3') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('../fonts/Avenir-Light.eot'); /* IE9 Compat Modes */
+  	src: url('../fonts/Avenir-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Avenir-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Avenir-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Avenir-Light.svg#78de6cebc05d0d6b5836c87138de5726') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container{
+    width: 100%;
+}
+
+rl-ka-refer-landing {
+	@import 'reset.scss';
+	@import 'variables.scss';
+	@import 'mixins.scss';
+	@import 'utils.scss';
+	@import 'animations.scss';
+
+	@import 'components/header.scss';
+	@import 'components/videoplayer.scss';
+    @import 'components/masthead.scss';
+    @import 'components/features.scss';
+    @import 'components/selector.scss';
+    @import 'components/learn-more-button.scss';
+    @import 'components/more-features.scss';
+    @import 'components/banner.scss';
+    @import 'components/footer.scss';
+
+	width: 100%;
+	@include Avenir-Light;
+	font-size: 12pt;
+	position: relative;
+	display: block;
+
+	h1,h2,h3,h4,h5,[class*='title'] {
+		color: $titleColor !important;
+		cursor: default;
+		@include Avenir-Bold;
+	}
+
+	p,span,div {
+		cursor: pointer;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+	a {
+		color: $linkColor;
+	}
+
+	> *:not(header):not(footer) {
+		width: 100%;
+        max-width:$appWidth;
+        min-width: 320px;
+		margin: 0 auto;
+		position: relative;
+		display: block;
+	}
+}
+
+@import 'components/browser-specific/ie.scss';

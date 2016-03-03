@@ -1,0 +1,16 @@
+banner {
+	cursor: default;
+
+	img {
+		width: 100%;
+	}
+
+	learn-more-button {
+		right: 7%;
+        width: 22%;
+        @media screen and (max-width: 685px) {
+            font-size: small;
+        }
+        
+	}
+}

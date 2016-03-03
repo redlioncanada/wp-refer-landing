@@ -41,5 +41,5 @@ var BrowserDetect = {
     };
 BrowserDetect.init();
 $(window).ready(function() {
-    document.getElementsByTagName('rl-ka-refer-landing')[0].className+=' '+BrowserDetect.browser.toLowerCase()+BrowserDetect.version
+    document.getElementsByTagName('rl-wp-refer-landing')[0].className+=' '+BrowserDetect.browser.toLowerCase()+BrowserDetect.version
 })

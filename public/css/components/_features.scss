@@ -1,3 +1,6 @@
+$featureButtonHeight: 285px;
+$featureButtonHeightMobile: 220px;
+
 features {
     .row{
         width: 100%;
@@ -6,13 +9,17 @@ features {
         border: 4px solid $accentColor;
     }
     @media screen and (max-width: 1366px) {
-        height: 180px !important;
         
         .row {
-            height: 180px;
             width: 75%;
             position: relative;
             left: 13%;
+            height: $featureButtonHeightMobile;
+        }
+
+        .wp-landing-feature-button:after {
+            height: $featureButtonHeightMobile*0.7 !important;
+            top: $featureButtonHeightMobile*0.3 / 2 !important;
         }
     }
     @media screen and (max-width: 785px) {
@@ -23,7 +30,7 @@ features {
             left: .3%;
         }
     }
-    .ka-landing-feature-icon {
+    .wp-landing-feature-icon {
         width: 100px;
         height: 100px;
         border-radius: 50px;
@@ -57,7 +64,7 @@ features {
         }
     }
     
-    .ka-landing-feature-title {
+    .wp-landing-feature-title {
         text-transform: uppercase;
         width: 100%;
         top: 150px;
@@ -74,7 +81,7 @@ features {
         
     }
 
-    .ka-landing-feature-button-over{
+    .wp-landing-feature-button-over{
         opacity: 0;
         z-index: 2;
         display: table;
@@ -84,7 +91,7 @@ features {
         @include transition(0.2s);
     }
 
-    .ka-landing-feature-copy-container {
+    .wp-landing-feature-copy-container {
         display: table-cell;
         color: $features-copyColor;
         position: relative;
@@ -94,7 +101,7 @@ features {
         padding: 0 14px;
     }
 
-    .ka-landing-over-copy {
+    .wp-landing-over-copy {
         font-weight: 100;
         margin-bottom: 2px;
         color: $titleColor;
@@ -102,21 +109,30 @@ features {
         top: 198px;
         opacity: 0;
         @include transition(0.2s);
+
+        @media screen and (max-width: 1366px) {
+            font-size: 0.8em;
+            top: 148px;
+        }
     }
 
-    .ka-landing-over-copy, .ka-landing-over-cta {
+    .wp-landing-over-copy, .wp-landing-over-cta {
         width: 100%;
         text-align: center;
         position: absolute;
     }
 
-    .ka-landing-over-cta {
+    .wp-landing-over-cta {
         @include Helvetica-Medium;
         color: $accentColor;
         top: 230px;
+
+        @media screen and (max-width: 1366px) {
+            top: 168px;
+        }
     }
 
-    .ka-landing-over-cta:after {
+    .wp-landing-over-cta:after {
         position: absolute;
         content: ' ';
         background: url(../images/arrow.jpg);
@@ -126,16 +142,14 @@ features {
         margin-left: 4px;
     }
 
-    .ka-landing-feature-button-over-background {
+    .wp-landing-feature-button-over-background {
         height: 100%;
         width: 100%;
         background-color: $accentColor;
         position: absolute;
     }
 
-    $featureButtonHeight: 285px;
-
-    .ka-landing-feature-button {
+    .wp-landing-feature-button {
         width: 33%;
         padding: 2px;
         float: left;
@@ -147,16 +161,16 @@ features {
             height: 150px;
         }
 
-        .ka-landing-feature-button-up {
+        .wp-landing-feature-button-up {
             position: relative;
             z-index: 1;
         }
 
-        .ka-landing-innerBtn {
+        .wp-landing-innerBtn {
             position: absolute;
         }
         
-        .ka-landing-feature-rule {
+        .wp-landing-feature-rule {
             width: 70%;
             height: 5px;
             border-top: 1px dashed #585858;
@@ -174,7 +188,7 @@ features {
         }
     }
 
-    .ka-landing-feature-button:after {
+    .wp-landing-feature-button:after {
         content: ' ';
         width: 1px;
         height: $featureButtonHeight*0.7;
@@ -184,22 +198,22 @@ features {
         border-left: 1px dashed #585858;
     }
 
-    .ka-landing-feature-button:hover .ka-landing-over-copy {
+    .wp-landing-feature-button:hover .wp-landing-over-copy {
         opacity: 1;
     }
 
     feature-button:first-of-type {
-        .ka-landing-feature-button {
+        .wp-landing-feature-button {
             margin-left: 0px;
         }
     }
 
     feature-button:last-of-type {
-        .ka-landing-feature-button {
+        .wp-landing-feature-button {
             margin-right: 0px;
         }
 
-        .ka-landing-feature-button:after {
+        .wp-landing-feature-button:after {
             content: initial;
         }
     }

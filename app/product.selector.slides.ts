@@ -71,9 +71,9 @@ export class ProductSlides extends TimelineController {
           var self = this
           target = $(this.rootElement).find('#'+target)
 
-          var image = ($(target).find('.rl-ka-lndng-fridge'))
-          var title = ($(target).find('.rl-ka-lndng-fridge-title'))
-          var desc = ($(target).find('.rl-ka-lndng-fridge-desc'))
+          var image = ($(target).find('.rl-wp-lndng-fridge'))
+          var title = ($(target).find('.rl-wp-lndng-fridge-title'))
+          var desc = ($(target).find('.rl-wp-lndng-fridge-desc'))
           var learn = ($(target).find('learn-more-button'))
 
           this.animating = true;
@@ -94,9 +94,9 @@ export class ProductSlides extends TimelineController {
         $(self.rootElement).find('product-slide').css('zIndex', 1)
         $(target).parent().css('zIndex', 2)
 
-        var image = ($(target).find('.rl-ka-lndng-fridge'))
-        var title = ($(target).find('.rl-ka-lndng-fridge-title'))
-        var desc = ($(target).find('.rl-ka-lndng-fridge-desc'))
+        var image = ($(target).find('.rl-wp-lndng-fridge'))
+        var title = ($(target).find('.rl-wp-lndng-fridge-title'))
+        var desc = ($(target).find('.rl-wp-lndng-fridge-desc'))
         var learn = ($(target).find('learn-more-button'))
 
         var isMobile = $(window).innerWidth() <= 820

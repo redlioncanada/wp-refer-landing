@@ -10,7 +10,7 @@ videoplayer {
         }
 	}
     
-    h2.ka-refer-landing-videoplayer-title{
+    h2.wp-refer-landing-videoplayer-title{
     	@include header-text;
          @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 1em;
@@ -38,7 +38,7 @@ videoplayer {
 			width: 101.5%;
 		}
 
-		li:nth-child(2) videoplayer-selector .ka-refer-landing-videoplayer-title {
+		li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
 			margin-top: -60px;
 		}
 
@@ -65,18 +65,18 @@ videoplayer-player {
 	}
 
 
-	.ka-refer-landing-videoplayer-text {
+	.wp-refer-landing-videoplayer-text {
 		width: 100%;
 		padding: 28px 40px;
 		background-color: $videoPlayer-backgroundColor;
 		color: $videoPlayer-descColor;
 		margin-top: -5px;
 
-		.ka-refer-landing-videoplayer-description, .ka-refer-landing-videoplayer-title {
+		.wp-refer-landing-videoplayer-description, .wp-refer-landing-videoplayer-title {
 			text-align: center;
 		}
         
-        .ka-refer-landing-videoplayer-description{
+        .wp-refer-landing-videoplayer-description{
         	margin-top: 10px;
             @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 66%;
@@ -88,7 +88,7 @@ videoplayer-player {
 videoplayer-selector {
 	width: 100%;
 
-	.ka-refer-landing-videoplayer-text {
+	.wp-refer-landing-videoplayer-text {
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -98,14 +98,14 @@ videoplayer-selector {
         }
 
 
-		.ka-refer-landing-videoplayer-title, .ka-refer-landing-videoplayer-button {
+		.wp-refer-landing-videoplayer-title, .wp-refer-landing-videoplayer-button {
 			top: 50%;
 			text-align: center;
 			color: $videoPlayer-copyColor;
 			border-radius: 15px;
 		}
 
-		.ka-refer-landing-videoplayer-title {
+		.wp-refer-landing-videoplayer-title {
 			font-size: 2em;
 			margin-top: -20px;
 			width: 100%;
@@ -116,7 +116,7 @@ videoplayer-selector {
 	        }
 		}
 
-		.ka-refer-landing-videoplayer-button {
+		.wp-refer-landing-videoplayer-button {
 			font-size: 0.8em;
 			position: relative;
 			top: 60%;
@@ -131,12 +131,12 @@ videoplayer-selector {
 		}
 	}
 
-	.ka-refer-landing-videoplayer-text h2, .ka-refer-landing-videoplayer-text div {
+	.wp-refer-landing-videoplayer-text h2, .wp-refer-landing-videoplayer-text div {
 		position: absolute;
 	}
 
 	videoplayer-selector:hover {
-		.ka-refer-landing-videoplayer-button {
+		.wp-refer-landing-videoplayer-button {
 			@include grow(1.2);
 		}
 	}
@@ -162,7 +162,7 @@ videoplayer-selector {
 			cursor: default;
 		}
 
-		.ka-refer-landing-videoplayer-button, .ka-refer-landing-videoplayer-title {
+		.wp-refer-landing-videoplayer-button, .wp-refer-landing-videoplayer-title {
 			opacity: 0;
 		}
 
@@ -175,7 +175,7 @@ videoplayer-selector {
 videoplayer.fr {
 	ul li:nth-child(2) {
 		videoplayer-selector {
-			.ka-refer-landing-videoplayer-title {
+			.wp-refer-landing-videoplayer-title {
 				line-height: 35px;
 				margin-top: -50px;
 
@@ -190,7 +190,7 @@ videoplayer.fr {
 
 	videoplayer-selector {
 		@media screen and (max-width: $mobileBreakpoint) {
-			.ka-refer-landing-videoplayer-title {
+			.wp-refer-landing-videoplayer-title {
 				font-size: 1em;
 				margin-top: -8px;
 			}

@@ -7,7 +7,7 @@ html, body {
 #container {
   width: 100%; }
 
-rl-ka-refer-landing {
+rl-wp-refer-landing {
   /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -21,151 +21,152 @@ rl-ka-refer-landing {
   font-weight: 200;
   font-size: 12pt;
   position: relative;
-  display: block; }
-  rl-ka-refer-landing html, rl-ka-refer-landing body, rl-ka-refer-landing div, rl-ka-refer-landing span, rl-ka-refer-landing applet, rl-ka-refer-landing object, rl-ka-refer-landing iframe, rl-ka-refer-landing h1, rl-ka-refer-landing h2, rl-ka-refer-landing h3, rl-ka-refer-landing h4, rl-ka-refer-landing h5, rl-ka-refer-landing h6, rl-ka-refer-landing p, rl-ka-refer-landing blockquote, rl-ka-refer-landing pre, rl-ka-refer-landing a, rl-ka-refer-landing abbr, rl-ka-refer-landing acronym, rl-ka-refer-landing address, rl-ka-refer-landing big, rl-ka-refer-landing cite, rl-ka-refer-landing code, rl-ka-refer-landing del, rl-ka-refer-landing dfn, rl-ka-refer-landing em, rl-ka-refer-landing img, rl-ka-refer-landing ins, rl-ka-refer-landing kbd, rl-ka-refer-landing q, rl-ka-refer-landing s, rl-ka-refer-landing samp, rl-ka-refer-landing small, rl-ka-refer-landing strike, rl-ka-refer-landing strong, rl-ka-refer-landing sub, rl-ka-refer-landing sup, rl-ka-refer-landing tt, rl-ka-refer-landing var, rl-ka-refer-landing b, rl-ka-refer-landing u, rl-ka-refer-landing i, rl-ka-refer-landing center, rl-ka-refer-landing dl, rl-ka-refer-landing dt, rl-ka-refer-landing dd, rl-ka-refer-landing ol, rl-ka-refer-landing ul, rl-ka-refer-landing li, rl-ka-refer-landing fieldset, rl-ka-refer-landing form, rl-ka-refer-landing label, rl-ka-refer-landing legend, rl-ka-refer-landing table, rl-ka-refer-landing caption, rl-ka-refer-landing tbody, rl-ka-refer-landing tfoot, rl-ka-refer-landing thead, rl-ka-refer-landing tr, rl-ka-refer-landing th, rl-ka-refer-landing td, rl-ka-refer-landing article, rl-ka-refer-landing aside, rl-ka-refer-landing canvas, rl-ka-refer-landing details, rl-ka-refer-landing embed, rl-ka-refer-landing figure, rl-ka-refer-landing figcaption, rl-ka-refer-landing footer, rl-ka-refer-landing header, rl-ka-refer-landing hgroup, rl-ka-refer-landing menu, rl-ka-refer-landing nav, rl-ka-refer-landing output, rl-ka-refer-landing ruby, rl-ka-refer-landing section, rl-ka-refer-landing summary, rl-ka-refer-landing time, rl-ka-refer-landing mark, rl-ka-refer-landing audio, rl-ka-refer-landing video {
+  display: block;
+  margin-top: 118px; }
+  rl-wp-refer-landing html, rl-wp-refer-landing body, rl-wp-refer-landing div, rl-wp-refer-landing span, rl-wp-refer-landing applet, rl-wp-refer-landing object, rl-wp-refer-landing iframe, rl-wp-refer-landing h1, rl-wp-refer-landing h2, rl-wp-refer-landing h3, rl-wp-refer-landing h4, rl-wp-refer-landing h5, rl-wp-refer-landing h6, rl-wp-refer-landing p, rl-wp-refer-landing blockquote, rl-wp-refer-landing pre, rl-wp-refer-landing a, rl-wp-refer-landing abbr, rl-wp-refer-landing acronym, rl-wp-refer-landing address, rl-wp-refer-landing big, rl-wp-refer-landing cite, rl-wp-refer-landing code, rl-wp-refer-landing del, rl-wp-refer-landing dfn, rl-wp-refer-landing em, rl-wp-refer-landing img, rl-wp-refer-landing ins, rl-wp-refer-landing kbd, rl-wp-refer-landing q, rl-wp-refer-landing s, rl-wp-refer-landing samp, rl-wp-refer-landing small, rl-wp-refer-landing strike, rl-wp-refer-landing strong, rl-wp-refer-landing sub, rl-wp-refer-landing sup, rl-wp-refer-landing tt, rl-wp-refer-landing var, rl-wp-refer-landing b, rl-wp-refer-landing u, rl-wp-refer-landing i, rl-wp-refer-landing center, rl-wp-refer-landing dl, rl-wp-refer-landing dt, rl-wp-refer-landing dd, rl-wp-refer-landing ol, rl-wp-refer-landing ul, rl-wp-refer-landing li, rl-wp-refer-landing fieldset, rl-wp-refer-landing form, rl-wp-refer-landing label, rl-wp-refer-landing legend, rl-wp-refer-landing table, rl-wp-refer-landing caption, rl-wp-refer-landing tbody, rl-wp-refer-landing tfoot, rl-wp-refer-landing thead, rl-wp-refer-landing tr, rl-wp-refer-landing th, rl-wp-refer-landing td, rl-wp-refer-landing article, rl-wp-refer-landing aside, rl-wp-refer-landing canvas, rl-wp-refer-landing details, rl-wp-refer-landing embed, rl-wp-refer-landing figure, rl-wp-refer-landing figcaption, rl-wp-refer-landing footer, rl-wp-refer-landing header, rl-wp-refer-landing hgroup, rl-wp-refer-landing menu, rl-wp-refer-landing nav, rl-wp-refer-landing output, rl-wp-refer-landing ruby, rl-wp-refer-landing section, rl-wp-refer-landing summary, rl-wp-refer-landing time, rl-wp-refer-landing mark, rl-wp-refer-landing audio, rl-wp-refer-landing video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline; }
-  rl-ka-refer-landing h1 {
+  rl-wp-refer-landing h1 {
     font-size: 2em; }
-  rl-ka-refer-landing h2 {
+  rl-wp-refer-landing h2 {
     font-size: 1.5em; }
-  rl-ka-refer-landing h3 {
+  rl-wp-refer-landing h3 {
     font-size: 1.17em; }
-  rl-ka-refer-landing h4 {
+  rl-wp-refer-landing h4 {
     font-size: 1.12em; }
-  rl-ka-refer-landing h5 {
+  rl-wp-refer-landing h5 {
     font-size: .83em; }
-  rl-ka-refer-landing h6 {
+  rl-wp-refer-landing h6 {
     font-size: .75em; }
-  rl-ka-refer-landing article, rl-ka-refer-landing aside, rl-ka-refer-landing details, rl-ka-refer-landing figcaption, rl-ka-refer-landing figure, rl-ka-refer-landing footer, rl-ka-refer-landing header, rl-ka-refer-landing hgroup, rl-ka-refer-landing menu, rl-ka-refer-landing nav, rl-ka-refer-landing section {
+  rl-wp-refer-landing article, rl-wp-refer-landing aside, rl-wp-refer-landing details, rl-wp-refer-landing figcaption, rl-wp-refer-landing figure, rl-wp-refer-landing footer, rl-wp-refer-landing header, rl-wp-refer-landing hgroup, rl-wp-refer-landing menu, rl-wp-refer-landing nav, rl-wp-refer-landing section {
     display: block; }
-  rl-ka-refer-landing body {
+  rl-wp-refer-landing body {
     line-height: 1; }
-  rl-ka-refer-landing ol, rl-ka-refer-landing ul {
+  rl-wp-refer-landing ol, rl-wp-refer-landing ul {
     list-style: none; }
-  rl-ka-refer-landing blockquote, rl-ka-refer-landing q {
+  rl-wp-refer-landing blockquote, rl-wp-refer-landing q {
     quotes: none; }
-  rl-ka-refer-landing blockquote:before, rl-ka-refer-landing blockquote:after {
+  rl-wp-refer-landing blockquote:before, rl-wp-refer-landing blockquote:after {
     content: '';
     content: none; }
-  rl-ka-refer-landing q:before, rl-ka-refer-landing q:after {
+  rl-wp-refer-landing q:before, rl-wp-refer-landing q:after {
     content: '';
     content: none; }
-  rl-ka-refer-landing table {
+  rl-wp-refer-landing table {
     border-collapse: collapse;
     border-spacing: 0; }
-  rl-ka-refer-landing a {
+  rl-wp-refer-landing a {
     text-decoration: none; }
-  rl-ka-refer-landing sub, rl-ka-refer-landing sup {
+  rl-wp-refer-landing sub, rl-wp-refer-landing sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline; }
-  rl-ka-refer-landing sup {
+  rl-wp-refer-landing sup {
     top: -0.5em; }
-  rl-ka-refer-landing sub {
+  rl-wp-refer-landing sub {
     bottom: -0.25em; }
-  rl-ka-refer-landing .hide {
+  rl-wp-refer-landing .hide {
     display: none; }
-  rl-ka-refer-landing .show {
+  rl-wp-refer-landing .show {
     display: block; }
-  rl-ka-refer-landing .selected {
+  rl-wp-refer-landing .selected {
     cursor: default; }
-  rl-ka-refer-landing header {
+  rl-wp-refer-landing header {
     font-family: Helvetica, Arial, sans-serif;
     overflow: hidden; }
-    rl-ka-refer-landing header #upper-wrap {
+    rl-wp-refer-landing header #upper-wrap {
       background-color: #EEE;
       height: 35px;
       width: 100%;
       position: absolute;
       z-index: 1; }
-    rl-ka-refer-landing header #header-wrap {
+    rl-wp-refer-landing header #header-wrap {
       position: relative;
       width: 100%;
       z-index: 2; }
-      rl-ka-refer-landing header #header-wrap ul {
+      rl-wp-refer-landing header #header-wrap ul {
         list-style: none;
         padding: 0;
         margin: 0; }
-        rl-ka-refer-landing header #header-wrap ul li {
+        rl-wp-refer-landing header #header-wrap ul li {
           float: left; }
-      rl-ka-refer-landing header #header-wrap a {
+      rl-wp-refer-landing header #header-wrap a {
         color: #333;
         text-decoration: none; }
-      rl-ka-refer-landing header #header-wrap .header-content-wrap {
+      rl-wp-refer-landing header #header-wrap .header-content-wrap {
         width: 100%;
         height: inherit;
         z-index: 2;
         border-bottom: 1.5px solid #BBB; }
-        rl-ka-refer-landing header #header-wrap .header-content-wrap > * {
+        rl-wp-refer-landing header #header-wrap .header-content-wrap > * {
           position: relative;
           margin: 0 auto;
           width: 944px; }
-        rl-ka-refer-landing header #header-wrap .header-content-wrap .upper {
+        rl-wp-refer-landing header #header-wrap .header-content-wrap .upper {
           height: 35px;
           padding: 10px 0;
           font-size: 8pt;
           text-transform: uppercase; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper .logo {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper .logo {
             position: absolute;
             left: -6px;
             top: 50px;
             z-index: 5; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper ul li {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper ul li {
             position: relative; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper ul li:not(:first-child) {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper ul li:not(:first-child) {
             margin-left: 10px; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper ul li:hover {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper ul li:hover {
             text-decoration: underline;
             cursor: pointer; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .upper ul li:hover > .submenu {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .upper ul li:hover > .submenu {
               display: block; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper .language {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper .language {
             font-weight: 500;
             margin-right: 10px; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper .language:hover {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper .language:hover {
             text-decoration: underline; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper .search-textbox {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper .search-textbox {
             margin-top: -5px;
             width: 110px;
             padding-left: 3px; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .upper .search-textbox-icon {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .upper .search-textbox-icon {
             position: absolute;
             right: 2px;
             top: 7px;
             cursor: pointer; }
-        rl-ka-refer-landing header #header-wrap .header-content-wrap .lower {
+        rl-wp-refer-landing header #header-wrap .header-content-wrap .lower {
           height: 22px;
           padding-top: 80px; }
-        rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu {
+        rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu {
           position: absolute;
           bottom: 0;
           height: 22px;
           width: inherit; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu > li {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu > li {
             height: 100%;
             text-transform: uppercase;
             font-size: 9pt;
             position: relative; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu > li:first-child {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu > li:first-child {
             margin-right: 10px; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu > li:not(:last-child) {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu > li:not(:last-child) {
             margin-right: 43px; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu > li:hover {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu > li:hover {
             border-bottom: 3px solid #CC0000;
             cursor: pointer; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li:hover > .submenu {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li:hover > .submenu {
             display: block; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double {
             width: 300%; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double li {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double li {
               width: 50%; }
-          rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu {
+          rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu {
             top: 22px;
             left: 0;
             display: none;
@@ -175,38 +176,38 @@ rl-ka-refer-landing {
             z-index: 10001;
             background-color: white;
             border: 1px solid #BBB; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li {
               width: 100%;
               display: block;
               float: none;
               text-transform: none;
               font-size: 7pt;
               padding: 4px 8px; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert {
               margin-left: 50%;
               margin-top: -200px;
               border-left: 1px solid #BBB; }
-              rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert * {
+              rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert * {
                 padding-left: 9px; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li:not(.insert):hover {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li:not(.insert):hover {
               background-color: #EEE;
               color: #CC0000; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:first-child li {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:first-child li {
               margin-top: 2px; }
-            rl-ka-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:last-child li {
+            rl-wp-refer-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:last-child li {
               margin-bottom: 13px; }
-    rl-ka-refer-landing header .pull-left {
+    rl-wp-refer-landing header .pull-left {
       float: left; }
-    rl-ka-refer-landing header .pull-right {
+    rl-wp-refer-landing header .pull-right {
       float: right; }
-  rl-ka-refer-landing header:lang(fr) #header-wrap .header-content-wrap .lower .menu li:not(:last-child) {
+  rl-wp-refer-landing header:lang(fr) #header-wrap .header-content-wrap .lower .menu li:not(:last-child) {
     margin-right: 9px; }
-  rl-ka-refer-landing #header_main_nav .top .header {
+  rl-wp-refer-landing #header_main_nav .top .header {
     height: 20px;
     overflow: visible; }
-  rl-ka-refer-landing header {
+  rl-wp-refer-landing header {
     display: block; }
-  rl-ka-refer-landing #main-nav {
+  rl-wp-refer-landing #main-nav {
     position: absolute;
     left: 0;
     top: 0;
@@ -217,14 +218,14 @@ rl-ka-refer-landing {
     background-repeat: repeat;
     display: none;
     color: #363636; }
-  rl-ka-refer-landing #main-nav a, rl-ka-refer-landing #main-nav a:hover, rl-ka-refer-landing #main-nav a:visited {
+  rl-wp-refer-landing #main-nav a, rl-wp-refer-landing #main-nav a:hover, rl-wp-refer-landing #main-nav a:visited {
     color: #363636;
     text-decoration: none; }
-  rl-ka-refer-landing #main-nav-container {
+  rl-wp-refer-landing #main-nav-container {
     position: absolute;
     width: 100%;
     height: auto; }
-  rl-ka-refer-landing .main-page {
+  rl-wp-refer-landing .main-page {
     background-color: #ffffff;
     position: relative;
     z-index: 100;
@@ -233,27 +234,27 @@ rl-ka-refer-landing {
     float: left;
     width: 100%;
     min-height: 428px; }
-  rl-ka-refer-landing .main-container {
+  rl-wp-refer-landing .main-container {
     position: relative;
     height: 100%; }
-  rl-ka-refer-landing #main-nav ul {
+  rl-wp-refer-landing #main-nav ul {
     background-color: #ffffff; }
-  rl-ka-refer-landing #main-nav li.submenu ul {
+  rl-wp-refer-landing #main-nav li.submenu ul {
     display: none; }
-  rl-ka-refer-landing #main-nav li, rl-ka-refer-landing #main-nav li a #main-nav li span {
+  rl-wp-refer-landing #main-nav li, rl-wp-refer-landing #main-nav li a #main-nav li span {
     width: 255px;
     display: block;
     font-size: 14px;
     -webkit-tap-highlight-color: transparent; }
-  rl-ka-refer-landing #main-nav li {
+  rl-wp-refer-landing #main-nav li {
     border-bottom: 1px dotted #D6D6D6;
     cursor: pointer;
     line-height: 22px; }
-  rl-ka-refer-landing #main-nav li a {
+  rl-wp-refer-landing #main-nav li a {
     padding: 10px 10px 10px 17px;
     width: 100%;
     display: block; }
-  rl-ka-refer-landing #main-nav li.home-item {
+  rl-wp-refer-landing #main-nav li.home-item {
     font-size: 18px;
     text-indent: 25px;
     border-bottom: 1px solid #D6D6D6;
@@ -262,37 +263,37 @@ rl-ka-refer-landing {
     background-size: 20px 50px;
     -webkit-background-size: 20px 50px;
     background-position: 6% 13px; }
-  rl-ka-refer-landing #main-nav li.home-item.hold a {
+  rl-wp-refer-landing #main-nav li.home-item.hold a {
     background-image: url("http://www.whirlpool.ca/images/template/home-sprite.png");
     background-repeat: no-repeat;
     background-size: 20px 50px;
     -webkit-background-size: 20px 50px;
     background-position: 6% -22px; }
-  rl-ka-refer-landing #main-nav li.hold, rl-ka-refer-landing #main-nav li.hold a {
+  rl-wp-refer-landing #main-nav li.hold, rl-wp-refer-landing #main-nav li.hold a {
     background-color: #eeb111;
     color: #ffffff; }
-  rl-ka-refer-landing #main-nav li:last-child {
+  rl-wp-refer-landing #main-nav li:last-child {
     border-bottom: solid 1px #D6D6D6; }
-  rl-ka-refer-landing #main-nav li.submenu {
+  rl-wp-refer-landing #main-nav li.submenu {
     background-image: url("http://www.kitchenaid.ca/images/template/nav-next-sprite.png");
     background-repeat: no-repeat;
     background-position: 94% 13px;
     background-size: 15px 60px;
     -webkit-background-size: 15px 60px;
     padding: 10px 10px 10px 17px; }
-  rl-ka-refer-landing #main-nav li.submenu-about {
+  rl-wp-refer-landing #main-nav li.submenu-about {
     font-size: 13px; }
-  rl-ka-refer-landing #main-nav li.submenu-about a {
+  rl-wp-refer-landing #main-nav li.submenu-about a {
     padding: 15px 10px 15px 17px;
     width: 100%;
     display: block; }
-  rl-ka-refer-landing .submenu-about .sub-title {
+  rl-wp-refer-landing .submenu-about .sub-title {
     font-size: 18px; }
-  rl-ka-refer-landing .submenu-about .sub-collection {
+  rl-wp-refer-landing .submenu-about .sub-collection {
     width: 190px;
     line-height: 17px;
     margin-bottom: 8px; }
-  rl-ka-refer-landing #main-nav li.menu-back {
+  rl-wp-refer-landing #main-nav li.menu-back {
     background-image: url("../images/template/nav-back-sprite.png");
     background-repeat: no-repeat;
     background-position: 6% 16px;
@@ -301,11 +302,11 @@ rl-ka-refer-landing {
     -webkit-background-size: 6px 60px;
     font-size: 18px;
     padding: 10px 10px 10px 17px; }
-  rl-ka-refer-landing #main-nav li.menu-back.hold,
-  rl-ka-refer-landing #main-nav li.menu-back-light.hold {
+  rl-wp-refer-landing #main-nav li.menu-back.hold,
+  rl-wp-refer-landing #main-nav li.menu-back-light.hold {
     background-image: url("../images/template/nav-back-sprite.png");
     background-position: 6% -9px; }
-  rl-ka-refer-landing #main-nav li.menu-back-light {
+  rl-wp-refer-landing #main-nav li.menu-back-light {
     background-image: url("../images/template/nav-back-sprite.png");
     background-repeat: no-repeat;
     background-position: 6% -33px;
@@ -315,16 +316,16 @@ rl-ka-refer-landing {
     font-size: 18px;
     color: #919195;
     padding: 10px 10px 10px 17px; }
-  rl-ka-refer-landing #main-nav li.menu-back-light.hold {
+  rl-wp-refer-landing #main-nav li.menu-back-light.hold {
     color: #ffffff; }
-  rl-ka-refer-landing #main-nav li.menu-back span, rl-ka-refer-landing #main-nav li.menu-back-light span {
+  rl-wp-refer-landing #main-nav li.menu-back span, rl-wp-refer-landing #main-nav li.menu-back-light span {
     padding-left: 15px; }
-  rl-ka-refer-landing .submenu-container {
+  rl-wp-refer-landing .submenu-container {
     display: none;
     position: absolute;
     background-color: #ffffff;
     width: 100%; }
-  rl-ka-refer-landing .content-overlay {
+  rl-wp-refer-landing .content-overlay {
     position: fixed;
     left: 0px;
     right: 0;
@@ -337,73 +338,73 @@ rl-ka-refer-landing {
     z-index: 10000000;
     display: none;
     overflow: hidden; }
-  rl-ka-refer-landing .nav-footer {
+  rl-wp-refer-landing .nav-footer {
     color: #363636;
     font-size: 12px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links li a {
+  rl-wp-refer-landing #main-nav .nav-footer-links li a {
     padding: 0px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links li:active, rl-ka-refer-landing #main-nav .nav-footer-links li a:active,
-  rl-ka-refer-landing #main-nav .nav-footer-links ul li.hold, rl-ka-refer-landing #main-nav .nav-footer-links ul li.hold a {
+  rl-wp-refer-landing #main-nav .nav-footer-links li:active, rl-wp-refer-landing #main-nav .nav-footer-links li a:active,
+  rl-wp-refer-landing #main-nav .nav-footer-links ul li.hold, rl-wp-refer-landing #main-nav .nav-footer-links ul li.hold a {
     background-color: transparent;
     color: #eeb111; }
-  rl-ka-refer-landing #main-nav .nav-copyright-links a:active {
+  rl-wp-refer-landing #main-nav .nav-copyright-links a:active {
     color: #eeb111; }
-  rl-ka-refer-landing .nav-footer hr {
+  rl-wp-refer-landing .nav-footer hr {
     border-top: 1px solid #959595;
     border-bottom: 1px solid #ffffff;
     height: 2px;
     margin-bottom: 4px; }
-  rl-ka-refer-landing .nav-social {
+  rl-wp-refer-landing .nav-social {
     padding: 25px 17px 36px; }
-  rl-ka-refer-landing .nav-social div {
+  rl-wp-refer-landing .nav-social div {
     float: left; }
-  rl-ka-refer-landing .nav-social div:first-child {
+  rl-wp-refer-landing .nav-social div:first-child {
     float: none;
     margin-bottom: 14px; }
-  rl-ka-refer-landing .nav-social .facebook img {
+  rl-wp-refer-landing .nav-social .facebook img {
     width: 32px;
     height: 32px;
     margin-right: 23px; }
-  rl-ka-refer-landing .nav-social .twitter img {
+  rl-wp-refer-landing .nav-social .twitter img {
     width: 39px;
     height: 32px;
     margin-right: 16px; }
-  rl-ka-refer-landing .nav-social .youtube img {
+  rl-wp-refer-landing .nav-social .youtube img {
     width: 52px;
     height: 21px;
     margin-right: 23px; }
-  rl-ka-refer-landing .nav-social .pintrest img {
+  rl-wp-refer-landing .nav-social .pintrest img {
     width: 35px;
     height: 35px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links {
+  rl-wp-refer-landing #main-nav .nav-footer-links {
     margin-top: 17px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links ul {
+  rl-wp-refer-landing #main-nav .nav-footer-links ul {
     float: left;
     width: 120px;
     background-color: transparent;
     margin-bottom: 14px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links ul:first-child {
+  rl-wp-refer-landing #main-nav .nav-footer-links ul:first-child {
     padding-left: 12px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links ul li {
+  rl-wp-refer-landing #main-nav .nav-footer-links ul li {
     background-color: transparent;
     border: 0px;
     font-size: 11px;
     padding: 0px 5px 5px 5px; }
-  rl-ka-refer-landing #main-nav .nav-footer-links li:last-child {
+  rl-wp-refer-landing #main-nav .nav-footer-links li:last-child {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
-  rl-ka-refer-landing .nav-copyright-links {
+  rl-wp-refer-landing .nav-copyright-links {
     font-size: 11px;
     padding: 0px 17px 10px;
     line-height: 26px; }
-  rl-ka-refer-landing #main-nav-container {
+  rl-wp-refer-landing #main-nav-container {
     overflow: hidden; }
-    rl-ka-refer-landing #main-nav-container ul {
+    rl-wp-refer-landing #main-nav-container ul {
       padding-left: 0; }
-  rl-ka-refer-landing #main-nav {
+  rl-wp-refer-landing #main-nav {
     overflow-x: scroll; }
-  rl-ka-refer-landing .mobileOverlay {
+  rl-wp-refer-landing .mobileOverlay {
     position: absolute;
     background-color: #333333;
     opacity: 0;
@@ -411,88 +412,88 @@ rl-ka-refer-landing {
     z-index: 101;
     display: none; }
   @media screen and (min-width: 580px) {
-    rl-ka-refer-landing #main-nav, rl-ka-refer-landing .mobileOverlay {
+    rl-wp-refer-landing #main-nav, rl-wp-refer-landing .mobileOverlay {
       height: 1000px !important; } }
   @media screen and (min-width: 1023px) {
-    rl-ka-refer-landing #main-nav {
+    rl-wp-refer-landing #main-nav {
       display: none !important; } }
-  rl-ka-refer-landing videoplayer > h2 {
+  rl-wp-refer-landing videoplayer > h2 {
     font-size: 3em;
     text-align: center;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 20px; }
     @media screen and (max-width: 820px) {
-      rl-ka-refer-landing videoplayer > h2 {
+      rl-wp-refer-landing videoplayer > h2 {
         font-size: 2em; } }
-  rl-ka-refer-landing videoplayer h2.ka-refer-landing-videoplayer-title {
+  rl-wp-refer-landing videoplayer h2.wp-refer-landing-videoplayer-title {
     font-size: 3em;
     text-align: center;
     width: 100%; }
     @media screen and (max-width: 820px) {
-      rl-ka-refer-landing videoplayer h2.ka-refer-landing-videoplayer-title {
+      rl-wp-refer-landing videoplayer h2.wp-refer-landing-videoplayer-title {
         font-size: 1em; } }
-  rl-ka-refer-landing videoplayer > ul {
+  rl-wp-refer-landing videoplayer > ul {
     overflow: hidden; }
-    rl-ka-refer-landing videoplayer > ul li {
+    rl-wp-refer-landing videoplayer > ul li {
       float: left;
       width: 33.333333333%;
       padding: 0 5px; }
-    rl-ka-refer-landing videoplayer > ul li:last-child {
+    rl-wp-refer-landing videoplayer > ul li:last-child {
       padding-right: 0; }
-    rl-ka-refer-landing videoplayer > ul li:first-child {
+    rl-wp-refer-landing videoplayer > ul li:first-child {
       padding-left: 0; }
-    rl-ka-refer-landing videoplayer > ul li:nth-child(2) img {
+    rl-wp-refer-landing videoplayer > ul li:nth-child(2) img {
       width: 101.5%; }
-    rl-ka-refer-landing videoplayer > ul li:nth-child(2) videoplayer-selector .ka-refer-landing-videoplayer-title {
+    rl-wp-refer-landing videoplayer > ul li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
       margin-top: -60px; }
-  rl-ka-refer-landing videoplayer-player {
+  rl-wp-refer-landing videoplayer-player {
     width: 100%; }
-    rl-ka-refer-landing videoplayer-player ul {
+    rl-wp-refer-landing videoplayer-player ul {
       overflow: auto; }
-    rl-ka-refer-landing videoplayer-player ul li {
+    rl-wp-refer-landing videoplayer-player ul li {
       width: 100%; }
-    rl-ka-refer-landing videoplayer-player videoplayer-video {
+    rl-wp-refer-landing videoplayer-player videoplayer-video {
       width: 100%; }
-      rl-ka-refer-landing videoplayer-player videoplayer-video img {
+      rl-wp-refer-landing videoplayer-player videoplayer-video img {
         width: 100%; }
-    rl-ka-refer-landing videoplayer-player .ka-refer-landing-videoplayer-text {
+    rl-wp-refer-landing videoplayer-player .wp-refer-landing-videoplayer-text {
       width: 100%;
       padding: 28px 40px;
       background-color: #FFFFFF;
       color: #313131;
       margin-top: -5px; }
-      rl-ka-refer-landing videoplayer-player .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-description, rl-ka-refer-landing videoplayer-player .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-title {
+      rl-wp-refer-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description, rl-wp-refer-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
         text-align: center; }
-      rl-ka-refer-landing videoplayer-player .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-description {
+      rl-wp-refer-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description {
         margin-top: 10px; }
         @media screen and (max-width: 820px) {
-          rl-ka-refer-landing videoplayer-player .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-description {
+          rl-wp-refer-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description {
             font-size: 66%; } }
-  rl-ka-refer-landing videoplayer-selector {
+  rl-wp-refer-landing videoplayer-selector {
     width: 100%; }
-    rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text {
+    rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 2; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text {
+        rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text {
           top: -5px; } }
-      rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-title, rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-button {
+      rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title, rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-button {
         top: 50%;
         text-align: center;
         color: #FFFFFF;
         border-radius: 15px; }
-      rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-title {
+      rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
         font-size: 2em;
         margin-top: -20px;
         width: 100%;
         color: #FFFFFF !important; }
         @media screen and (max-width: 820px) {
-          rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-title {
+          rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
             font-size: 1.2em; } }
-      rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-button {
+      rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-button {
         font-size: 0.8em;
         position: relative;
         top: 60%;
@@ -505,19 +506,19 @@ rl-ka-refer-landing {
         -o-transition: all 0.2s ease;
         transition: all 0.2s ease; }
         @media screen and (max-width: 785px) {
-          rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text .ka-refer-landing-videoplayer-button {
+          rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-button {
             display: none; } }
-    rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text h2, rl-ka-refer-landing videoplayer-selector .ka-refer-landing-videoplayer-text div {
+    rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text h2, rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text div {
       position: absolute; }
-    rl-ka-refer-landing videoplayer-selector videoplayer-selector:hover .ka-refer-landing-videoplayer-button {
+    rl-wp-refer-landing videoplayer-selector videoplayer-selector:hover .wp-refer-landing-videoplayer-button {
       transform: scale(1.2);
       -webkit-transform: scale(1.2); }
-    rl-ka-refer-landing videoplayer-selector > div {
+    rl-wp-refer-landing videoplayer-selector > div {
       position: relative;
       cursor: pointer;
       background-color: #000000;
       overflow: hidden; }
-    rl-ka-refer-landing videoplayer-selector img {
+    rl-wp-refer-landing videoplayer-selector img {
       opacity: 0.45;
       width: 100%;
       z-index: 1;
@@ -525,82 +526,83 @@ rl-ka-refer-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-ka-refer-landing videoplayer-selector .selected {
+    rl-wp-refer-landing videoplayer-selector .selected {
       cursor: default; }
-      rl-ka-refer-landing videoplayer-selector .selected * {
+      rl-wp-refer-landing videoplayer-selector .selected * {
         cursor: default; }
-      rl-ka-refer-landing videoplayer-selector .selected .ka-refer-landing-videoplayer-button, rl-ka-refer-landing videoplayer-selector .selected .ka-refer-landing-videoplayer-title {
+      rl-wp-refer-landing videoplayer-selector .selected .wp-refer-landing-videoplayer-button, rl-wp-refer-landing videoplayer-selector .selected .wp-refer-landing-videoplayer-title {
         opacity: 0; }
-      rl-ka-refer-landing videoplayer-selector .selected img {
+      rl-wp-refer-landing videoplayer-selector .selected img {
         opacity: 1; }
-  rl-ka-refer-landing videoplayer.fr ul li:nth-child(2) videoplayer-selector .ka-refer-landing-videoplayer-title {
+  rl-wp-refer-landing videoplayer.fr ul li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
     line-height: 35px;
     margin-top: -50px; }
     @media screen and (max-width: 820px) {
-      rl-ka-refer-landing videoplayer.fr ul li:nth-child(2) videoplayer-selector .ka-refer-landing-videoplayer-title {
+      rl-wp-refer-landing videoplayer.fr ul li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
         font-size: 0.8em;
         line-height: 15px;
         margin-top: -10px; } }
   @media screen and (max-width: 820px) {
-    rl-ka-refer-landing videoplayer.fr videoplayer-selector .ka-refer-landing-videoplayer-title {
+    rl-wp-refer-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-title {
       font-size: 1em;
       margin-top: -8px; } }
-  rl-ka-refer-landing masthead {
+  rl-wp-refer-landing masthead {
     width: 80%;
     position: relative;
     display: block;
     padding-top: 20px; }
-    rl-ka-refer-landing masthead #ka-landing-masthead {
+    rl-wp-refer-landing masthead #wp-landing-masthead {
       overflow: hidden;
       cursor: default;
       margin-bottom: 20px; }
       @media screen and (min-width: 768px) and (max-width: 1275px) {
-        rl-ka-refer-landing masthead #ka-landing-masthead {
+        rl-wp-refer-landing masthead #wp-landing-masthead {
           height: 250px; } }
-    rl-ka-refer-landing masthead img {
+    rl-wp-refer-landing masthead img {
       width: 100%; }
       @media screen and (min-width: 768px) and (max-width: 1275px) {
-        rl-ka-refer-landing masthead img {
+        rl-wp-refer-landing masthead img {
           width: 75%;
           margin: auto;
           position: absolute;
           left: 0px;
           right: 0px; } }
-    rl-ka-refer-landing masthead .ka-landing-title h1 {
+    rl-wp-refer-landing masthead .wp-landing-title h1 {
       text-transform: uppercase;
       font-weight: 100;
       font-size: 32px;
       letter-spacing: 1px;
       margin-top: 125px; }
       @media screen and (max-width: 1275px) {
-        rl-ka-refer-landing masthead .ka-landing-title h1 {
+        rl-wp-refer-landing masthead .wp-landing-title h1 {
           position: relative;
           left: 12.5%; } }
       @media screen and (max-width: 768px) {
-        rl-ka-refer-landing masthead .ka-landing-title h1 {
+        rl-wp-refer-landing masthead .wp-landing-title h1 {
           text-align: center;
           padding-bottom: 10px;
           left: 0; } }
-  rl-ka-refer-landing features .row {
+  rl-wp-refer-landing features .row {
     width: 100%;
     height: 300px;
     float: none;
     border: 4px solid #eeb111; }
   @media screen and (max-width: 1366px) {
-    rl-ka-refer-landing features {
-      height: 180px !important; }
-      rl-ka-refer-landing features .row {
-        height: 180px;
-        width: 75%;
-        position: relative;
-        left: 13%; } }
+    rl-wp-refer-landing features .row {
+      width: 75%;
+      position: relative;
+      left: 13%;
+      height: 220px; }
+    rl-wp-refer-landing features .wp-landing-feature-button:after {
+      height: 154px !important;
+      top: 33px !important; } }
   @media screen and (max-width: 785px) {
-    rl-ka-refer-landing features .row {
+    rl-wp-refer-landing features .row {
       height: 180px;
       width: 100%;
       position: relative;
       left: .3%; } }
-  rl-ka-refer-landing features .ka-landing-feature-icon {
+  rl-wp-refer-landing features .wp-landing-feature-icon {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -610,7 +612,7 @@ rl-ka-refer-landing {
     right: 0;
     overflow: hidden;
     margin: auto; }
-    rl-ka-refer-landing features .ka-landing-feature-icon > img {
+    rl-wp-refer-landing features .wp-landing-feature-icon > img {
       width: 75px;
       height: 75px;
       position: absolute;
@@ -620,26 +622,26 @@ rl-ka-refer-landing {
       left: 0;
       right: 0; }
     @media screen and (max-width: 1366px) {
-      rl-ka-refer-landing features .ka-landing-feature-icon {
+      rl-wp-refer-landing features .wp-landing-feature-icon {
         width: 60px;
         height: 60px;
         top: 20px; }
-        rl-ka-refer-landing features .ka-landing-feature-icon img {
+        rl-wp-refer-landing features .wp-landing-feature-icon img {
           width: 45px;
           height: 45px; } }
-  rl-ka-refer-landing features .ka-landing-feature-title {
+  rl-wp-refer-landing features .wp-landing-feature-title {
     text-transform: uppercase;
     width: 100%;
     top: 150px;
     text-align: center;
     color: #eeb111 !important; }
     @media screen and (max-width: 1366px) {
-      rl-ka-refer-landing features .ka-landing-feature-title {
+      rl-wp-refer-landing features .wp-landing-feature-title {
         top: 95px; } }
     @media screen and (max-width: 479px) {
-      rl-ka-refer-landing features .ka-landing-feature-title {
+      rl-wp-refer-landing features .wp-landing-feature-title {
         font-size: 12px; } }
-  rl-ka-refer-landing features .ka-landing-feature-button-over {
+  rl-wp-refer-landing features .wp-landing-feature-button-over {
     opacity: 0;
     z-index: 2;
     display: table;
@@ -650,7 +652,7 @@ rl-ka-refer-landing {
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
-  rl-ka-refer-landing features .ka-landing-feature-copy-container {
+  rl-wp-refer-landing features .wp-landing-feature-copy-container {
     display: table-cell;
     color: #898989;
     position: relative;
@@ -658,7 +660,7 @@ rl-ka-refer-landing {
     width: inherit;
     vertical-align: middle;
     padding: 0 14px; }
-  rl-ka-refer-landing features .ka-landing-over-copy {
+  rl-wp-refer-landing features .wp-landing-over-copy {
     font-weight: 100;
     margin-bottom: 2px;
     color: #313131;
@@ -670,16 +672,23 @@ rl-ka-refer-landing {
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
-  rl-ka-refer-landing features .ka-landing-over-copy, rl-ka-refer-landing features .ka-landing-over-cta {
+    @media screen and (max-width: 1366px) {
+      rl-wp-refer-landing features .wp-landing-over-copy {
+        font-size: 0.8em;
+        top: 148px; } }
+  rl-wp-refer-landing features .wp-landing-over-copy, rl-wp-refer-landing features .wp-landing-over-cta {
     width: 100%;
     text-align: center;
     position: absolute; }
-  rl-ka-refer-landing features .ka-landing-over-cta {
+  rl-wp-refer-landing features .wp-landing-over-cta {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: #eeb111;
     top: 230px; }
-  rl-ka-refer-landing features .ka-landing-over-cta:after {
+    @media screen and (max-width: 1366px) {
+      rl-wp-refer-landing features .wp-landing-over-cta {
+        top: 168px; } }
+  rl-wp-refer-landing features .wp-landing-over-cta:after {
     position: absolute;
     content: ' ';
     background: url(../images/arrow.jpg);
@@ -687,12 +696,12 @@ rl-ka-refer-landing {
     height: 15px;
     top: 2px;
     margin-left: 4px; }
-  rl-ka-refer-landing features .ka-landing-feature-button-over-background {
+  rl-wp-refer-landing features .wp-landing-feature-button-over-background {
     height: 100%;
     width: 100%;
     background-color: #eeb111;
     position: absolute; }
-  rl-ka-refer-landing features .ka-landing-feature-button {
+  rl-wp-refer-landing features .wp-landing-feature-button {
     width: 33%;
     padding: 2px;
     float: left;
@@ -700,14 +709,14 @@ rl-ka-refer-landing {
     position: relative;
     box-sizing: border-box; }
     @media screen and (max-width: 1366px) {
-      rl-ka-refer-landing features .ka-landing-feature-button {
+      rl-wp-refer-landing features .wp-landing-feature-button {
         height: 150px; } }
-    rl-ka-refer-landing features .ka-landing-feature-button .ka-landing-feature-button-up {
+    rl-wp-refer-landing features .wp-landing-feature-button .wp-landing-feature-button-up {
       position: relative;
       z-index: 1; }
-    rl-ka-refer-landing features .ka-landing-feature-button .ka-landing-innerBtn {
+    rl-wp-refer-landing features .wp-landing-feature-button .wp-landing-innerBtn {
       position: absolute; }
-    rl-ka-refer-landing features .ka-landing-feature-button .ka-landing-feature-rule {
+    rl-wp-refer-landing features .wp-landing-feature-button .wp-landing-feature-rule {
       width: 70%;
       height: 5px;
       border-top: 1px dashed #585858;
@@ -718,10 +727,10 @@ rl-ka-refer-landing {
       margin-right: auto;
       margin-top: 10px; }
       @media screen and (max-width: 1366px) {
-        rl-ka-refer-landing features .ka-landing-feature-button .ka-landing-feature-rule {
+        rl-wp-refer-landing features .wp-landing-feature-button .wp-landing-feature-rule {
           top: 120px;
           width: 60px; } }
-  rl-ka-refer-landing features .ka-landing-feature-button:after {
+  rl-wp-refer-landing features .wp-landing-feature-button:after {
     content: ' ';
     width: 1px;
     height: 199.5px;
@@ -729,21 +738,18 @@ rl-ka-refer-landing {
     position: absolute;
     right: 0;
     border-left: 1px dashed #585858; }
-  rl-ka-refer-landing features .ka-landing-feature-button:hover .ka-landing-over-copy {
+  rl-wp-refer-landing features .wp-landing-feature-button:hover .wp-landing-over-copy {
     opacity: 1; }
-  rl-ka-refer-landing features feature-button:first-of-type .ka-landing-feature-button {
+  rl-wp-refer-landing features feature-button:first-of-type .wp-landing-feature-button {
     margin-left: 0px; }
-  rl-ka-refer-landing features feature-button:last-of-type .ka-landing-feature-button {
+  rl-wp-refer-landing features feature-button:last-of-type .wp-landing-feature-button {
     margin-right: 0px; }
-  rl-ka-refer-landing features feature-button:last-of-type .ka-landing-feature-button:after {
+  rl-wp-refer-landing features feature-button:last-of-type .wp-landing-feature-button:after {
     content: initial; }
-  rl-ka-refer-landing product-selector {
+  rl-wp-refer-landing product-selector {
     width: 80%;
     position: relative; }
-    @media screen and (max-width: 1366px) {
-      rl-ka-refer-landing product-selector {
-        margin-top: -30px !important; } }
-    rl-ka-refer-landing product-selector h2 {
+    rl-wp-refer-landing product-selector h2 {
       font-size: 3em;
       text-align: center;
       font-weight: 800;
@@ -751,47 +757,48 @@ rl-ka-refer-landing {
       margin-top: 50px;
       margin-bottom: 50px; }
       @media screen and (max-width: 1366px) {
-        rl-ka-refer-landing product-selector h2 {
+        rl-wp-refer-landing product-selector h2 {
           font-size: 2em;
           margin-top: 35px; } }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector h2 {
+        rl-wp-refer-landing product-selector h2 {
           margin-bottom: 0px; } }
-    rl-ka-refer-landing product-selector #french-door, rl-ka-refer-landing product-selector #side-by-side, rl-ka-refer-landing product-selector #bottom-freezer, rl-ka-refer-landing product-selector #under-counter, rl-ka-refer-landing product-selector #built-in {
+    rl-wp-refer-landing product-selector #french-door, rl-wp-refer-landing product-selector #side-by-side, rl-wp-refer-landing product-selector #bottom-freezer, rl-wp-refer-landing product-selector #under-counter, rl-wp-refer-landing product-selector #built-in {
       opacity: 0; }
-    rl-ka-refer-landing product-selector product-slides {
+    rl-wp-refer-landing product-selector product-slides {
       display: block;
       width: 100%; }
-    rl-ka-refer-landing product-selector .ka-refer-landing-product-slide {
+    rl-wp-refer-landing product-selector .wp-refer-landing-product-slide {
       position: absolute;
       width: 943px; }
-    rl-ka-refer-landing product-selector product-slide {
+    rl-wp-refer-landing product-selector product-slide {
       height: 420px;
       display: inline-block;
       position: relative;
-      top: -160px; }
+      top: -170px;
+      left: -470px; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector product-slide {
+        rl-wp-refer-landing product-selector product-slide {
           position: absolute;
           height: initial;
           top: initial;
           width: 100%;
           left: 0; } }
     @media screen and (max-width: 820px) {
-      rl-ka-refer-landing product-selector product-slide:first-of-type {
+      rl-wp-refer-landing product-selector product-slide:first-of-type {
         position: relative; } }
-    rl-ka-refer-landing product-selector > .row {
+    rl-wp-refer-landing product-selector > .row {
       background-image: url("../../public/images/refer-select-shadow.png");
       background-repeat: no-repeat;
       background-position-y: 100px; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector > .row {
+        rl-wp-refer-landing product-selector > .row {
           background-position-y: -30px; } }
-    rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-title.mobile {
+    rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-title.mobile {
       display: none;
       margin-bottom: 20px; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-title.mobile {
+        rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-title.mobile {
           position: relative;
           top: initial;
           left: initial;
@@ -802,7 +809,7 @@ rl-ka-refer-landing {
           width: 100%;
           margin-bottom: 10px;
           color: #000000 !important; } }
-    rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-title {
+    rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-title {
       position: absolute;
       left: 490px;
       top: 170px;
@@ -811,11 +818,12 @@ rl-ka-refer-landing {
       font-size: 32px;
       color: #000000 !important;
       opacity: 0;
-      line-height: 30px; }
+      line-height: 30px;
+      text-align: left; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-title {
+        rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-title {
           display: none; } }
-    rl-ka-refer-landing product-selector learn-more-button {
+    rl-wp-refer-landing product-selector learn-more-button {
       position: absolute;
       left: 490px;
       top: 325px;
@@ -823,38 +831,38 @@ rl-ka-refer-landing {
       height: 40px;
       opacity: 0; }
       @media screen and (max-width: 1366px) {
-        rl-ka-refer-landing product-selector learn-more-button {
+        rl-wp-refer-landing product-selector learn-more-button {
           transform: scale(1.5, 1.5);
           -webkit-transform: scale(1.5, 1.5);
           left: 515px;
           font-size: .7em; } }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector learn-more-button {
+        rl-wp-refer-landing product-selector learn-more-button {
           position: relative;
           top: initial;
           left: initial;
           display: block;
           text-align: center;
           margin: 0 auto; } }
-    rl-ka-refer-landing product-selector .rl-ka-lndng-fridge {
+    rl-wp-refer-landing product-selector .rl-wp-lndng-fridge {
       left: 165px;
       position: absolute;
       opacity: 0; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector .rl-ka-lndng-fridge {
+        rl-wp-refer-landing product-selector .rl-wp-lndng-fridge {
           left: initial;
           position: relative;
           display: block;
           top: 0;
           margin-bottom: 20px; } }
-    rl-ka-refer-landing product-selector .rl-ka-lndng-fridge img {
+    rl-wp-refer-landing product-selector .rl-wp-lndng-fridge img {
       height: 420px; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector .rl-ka-lndng-fridge img {
+        rl-wp-refer-landing product-selector .rl-wp-lndng-fridge img {
           height: 200px;
           display: block;
           margin: 0 auto; } }
-    rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-desc {
+    rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-desc {
       position: absolute;
       left: 490px;
       top: 215px;
@@ -864,9 +872,10 @@ rl-ka-refer-landing {
       line-height: 24px;
       letter-spacing: 1px;
       text-rendering: optimizeSpeed;
-      opacity: 0; }
+      opacity: 0;
+      text-align: left; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-desc {
+        rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-desc {
           position: relative;
           top: initial;
           left: initial;
@@ -877,35 +886,35 @@ rl-ka-refer-landing {
           font-size: 14px !important;
           line-height: 18px !important; } }
       @media screen and (max-width: 1366px) {
-        rl-ka-refer-landing product-selector .rl-ka-lndng-fridge-desc {
+        rl-wp-refer-landing product-selector .rl-wp-lndng-fridge-desc {
           font-size: 18px;
           line-height: 24px; } }
-  rl-ka-refer-landing product-selector-nav {
+  rl-wp-refer-landing product-selector-nav {
     position: relative;
     display: block;
     top: 70px;
     height: 300px; }
-    rl-ka-refer-landing product-selector-nav .row {
+    rl-wp-refer-landing product-selector-nav .row {
       position: relative; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product, rl-ka-refer-landing product-selector-nav .see-all {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product, rl-wp-refer-landing product-selector-nav .see-all {
       float: left;
       width: 14.28571428571429%;
       padding: 0 2px; }
-      rl-ka-refer-landing product-selector-nav .ka-refer-landing-product img, rl-ka-refer-landing product-selector-nav .see-all img {
+      rl-wp-refer-landing product-selector-nav .wp-refer-landing-product img, rl-wp-refer-landing product-selector-nav .see-all img {
         width: 100%; }
     @media screen and (max-width: 820px) {
-      rl-ka-refer-landing product-selector-nav .ka-refer-landing-product {
+      rl-wp-refer-landing product-selector-nav .wp-refer-landing-product {
         width: 16.5%; } }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product > img {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product > img {
       -webkit-transition: all 0.2s ease;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product:not(.selected) > img {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product:not(.selected) > img {
       opacity: 0.6; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product:not(.selected) .ka-refer-landing-button {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product:not(.selected) .wp-refer-landing-button {
       color: #898989; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-button {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-button {
       margin-top: 10px;
       height: 25px;
       display: table;
@@ -915,34 +924,34 @@ rl-ka-refer-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-      rl-ka-refer-landing product-selector-nav .ka-refer-landing-button .ka-refer-landing-button-circle {
+      rl-wp-refer-landing product-selector-nav .wp-refer-landing-button .wp-refer-landing-button-circle {
         width: 100%;
         height: 18px;
         margin-bottom: 10px; }
-        rl-ka-refer-landing product-selector-nav .ka-refer-landing-button .ka-refer-landing-button-circle div {
+        rl-wp-refer-landing product-selector-nav .wp-refer-landing-button .wp-refer-landing-button-circle div {
           height: inherit;
           width: 18px;
           margin: 0 auto;
           display: block;
           background-color: #898989;
           border-radius: 10px; }
-      rl-ka-refer-landing product-selector-nav .ka-refer-landing-button p {
+      rl-wp-refer-landing product-selector-nav .wp-refer-landing-button p {
         width: 100%;
         line-height: 13px;
         font-size: 1em;
         font-weight: 400;
         text-align: center; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product:hover > img {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product:hover > img {
       opacity: 0.75; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product:hover .ka-refer-landing-button {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button {
       color: #eeb111 !important; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product:hover .ka-refer-landing-button-circle div {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button-circle div {
       background-color: #eeb111 !important; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product.selected .ka-refer-landing-button {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button {
       color: #eeb111; }
-    rl-ka-refer-landing product-selector-nav .ka-refer-landing-product.selected .ka-refer-landing-button-circle div {
+    rl-wp-refer-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button-circle div {
       background-color: #eeb111; }
-    rl-ka-refer-landing product-selector-nav .see-all {
+    rl-wp-refer-landing product-selector-nav .see-all {
       height: 190px;
       width: 13%;
       margin-left: 1%;
@@ -954,7 +963,7 @@ rl-ka-refer-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-      rl-ka-refer-landing product-selector-nav .see-all div {
+      rl-wp-refer-landing product-selector-nav .see-all div {
         display: table;
         width: 100px;
         height: 100px;
@@ -963,7 +972,7 @@ rl-ka-refer-landing {
         margin-top: 38%;
         margin-left: 10px;
         font-weight: 400; }
-      rl-ka-refer-landing product-selector-nav .see-all p {
+      rl-wp-refer-landing product-selector-nav .see-all p {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
@@ -971,29 +980,29 @@ rl-ka-refer-landing {
         font-size: 1.3em;
         line-height: 20px; }
       @media screen and (max-width: 820px) {
-        rl-ka-refer-landing product-selector-nav .see-all {
+        rl-wp-refer-landing product-selector-nav .see-all {
           clear: left;
           width: 97%;
           height: 40px;
           margin-top: 10px; } }
-  rl-ka-refer-landing product-selector.fr .rl-ka-lndng-fridge-title {
+  rl-wp-refer-landing product-selector.fr .rl-wp-lndng-fridge-title {
     width: 450px; }
   @media screen and (max-width: 820px) {
-    rl-ka-refer-landing product-selector.fr .rl-ka-lndng-fridge-title.mobile {
+    rl-wp-refer-landing product-selector.fr .rl-wp-lndng-fridge-title.mobile {
       width: 100%; } }
-  rl-ka-refer-landing product-selector.fr .rl-ka-lndng-fridge-desc {
+  rl-wp-refer-landing product-selector.fr .rl-wp-lndng-fridge-desc {
     width: 450px; }
     @media screen and (max-width: 820px) {
-      rl-ka-refer-landing product-selector.fr .rl-ka-lndng-fridge-desc {
+      rl-wp-refer-landing product-selector.fr .rl-wp-lndng-fridge-desc {
         width: 100%; } }
   @media screen and (max-width: 820px) {
-    rl-ka-refer-landing product-selector.fr product-selector-nav div .ka-refer-landing-button p {
+    rl-wp-refer-landing product-selector.fr product-selector-nav div .wp-refer-landing-button p {
       font-size: 1em;
       font-weight: 200; } }
-  rl-ka-refer-landing product-selector.fr product-slides product-slide .rl-ka-lndng-fridge-title.mobile {
+  rl-wp-refer-landing product-selector.fr product-slides product-slide .rl-wp-lndng-fridge-title.mobile {
     font-size: 18px;
     line-height: 20px; }
-  rl-ka-refer-landing .product-slide-background {
+  rl-wp-refer-landing .product-slide-background {
     width: 100%;
     height: 130px;
     background: url(../images/refer-select-shadow.png);
@@ -1001,7 +1010,7 @@ rl-ka-refer-landing {
     background-position: 0 -280px;
     top: 310px;
     left: -90px; }
-  rl-ka-refer-landing learn-more-button {
+  rl-wp-refer-landing learn-more-button {
     display: block;
     position: absolute;
     top: 50%;
@@ -1017,51 +1026,51 @@ rl-ka-refer-landing {
     font-weight: 300;
     border-radius: 15px; }
     @media screen and (max-width: 685px) {
-      rl-ka-refer-landing learn-more-button {
+      rl-wp-refer-landing learn-more-button {
         font-size: .7em !important; } }
-    rl-ka-refer-landing learn-more-button * {
+    rl-wp-refer-landing learn-more-button * {
       color: #FFFFFF; }
-    rl-ka-refer-landing learn-more-button div {
+    rl-wp-refer-landing learn-more-button div {
       width: 100%;
       height: 100%;
       display: table; }
-    rl-ka-refer-landing learn-more-button p {
+    rl-wp-refer-landing learn-more-button p {
       display: table-cell;
       vertical-align: middle;
       text-align: center; }
-  rl-ka-refer-landing learn-more-button:hover {
+  rl-wp-refer-landing learn-more-button:hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2); }
-  rl-ka-refer-landing more-features {
+  rl-wp-refer-landing more-features {
     padding: 0px 0 70px 0;
     overflow: hidden;
     top: 35px; }
-    rl-ka-refer-landing more-features h2 {
+    rl-wp-refer-landing more-features h2 {
       font-size: 3em;
       text-align: center;
       width: 100%;
       padding: 0px 0 20px 0; }
       @media screen and (max-width: 685px) {
-        rl-ka-refer-landing more-features h2 {
+        rl-wp-refer-landing more-features h2 {
           font-size: 2em; } }
-    rl-ka-refer-landing more-features more-features-feature {
+    rl-wp-refer-landing more-features more-features-feature {
       padding: 0 5px; }
-    rl-ka-refer-landing more-features more-features-feature:first-of-type {
+    rl-wp-refer-landing more-features more-features-feature:first-of-type {
       padding-left: initial; }
-    rl-ka-refer-landing more-features more-features-feature:last-of-type {
+    rl-wp-refer-landing more-features more-features-feature:last-of-type {
       padding-right: initial; }
-  rl-ka-refer-landing more-features-feature {
+  rl-wp-refer-landing more-features-feature {
     width: 33.33333333333%;
     float: left;
     display: table; }
-    rl-ka-refer-landing more-features-feature .hover {
+    rl-wp-refer-landing more-features-feature .hover {
       position: relative; }
-    rl-ka-refer-landing more-features-feature .text-container:hover {
+    rl-wp-refer-landing more-features-feature .text-container:hover {
       opacity: 0.95; }
       @media screen and (max-width: 400px) {
-        rl-ka-refer-landing more-features-feature .text-container:hover {
+        rl-wp-refer-landing more-features-feature .text-container:hover {
           opacity: 0; } }
-    rl-ka-refer-landing more-features-feature .text-container {
+    rl-wp-refer-landing more-features-feature .text-container {
       display: flex;
       display: -webkit-flex;
       align-items: center;
@@ -1077,99 +1086,99 @@ rl-ka-refer-landing {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
       background-color: #000000; }
-    rl-ka-refer-landing more-features-feature .text-container-cell {
+    rl-wp-refer-landing more-features-feature .text-container-cell {
       max-width: 50%; }
-      rl-ka-refer-landing more-features-feature .text-container-cell .cta {
+      rl-wp-refer-landing more-features-feature .text-container-cell .cta {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: 800;
         margin-top: 5px; }
-      rl-ka-refer-landing more-features-feature .text-container-cell p {
+      rl-wp-refer-landing more-features-feature .text-container-cell p {
         text-align: center;
         color: #FFF; }
-    rl-ka-refer-landing more-features-feature .spacer-top {
+    rl-wp-refer-landing more-features-feature .spacer-top {
       max-width: 50%;
       align-self: flex-start;
       -webkit-align-self: flex-start; }
-    rl-ka-refer-landing more-features-feature .spacer-bottom {
+    rl-wp-refer-landing more-features-feature .spacer-bottom {
       max-width: 50%;
       align-self: flex-end;
       -webkit-align-self: flex-end; }
-    rl-ka-refer-landing more-features-feature img {
+    rl-wp-refer-landing more-features-feature img {
       width: 100%; }
-    rl-ka-refer-landing more-features-feature .bottom-text {
+    rl-wp-refer-landing more-features-feature .bottom-text {
       text-align: center;
       margin-top: 15px;
       color: #000000; }
-  rl-ka-refer-landing banner {
+  rl-wp-refer-landing banner {
     cursor: default; }
-    rl-ka-refer-landing banner img {
+    rl-wp-refer-landing banner img {
       width: 100%; }
-    rl-ka-refer-landing banner learn-more-button {
+    rl-wp-refer-landing banner learn-more-button {
       top: 80%;
       right: 41%;
       width: 18%;
       height: 34px;
       border-radius: 20px; }
       @media screen and (max-width: 685px) {
-        rl-ka-refer-landing banner learn-more-button {
+        rl-wp-refer-landing banner learn-more-button {
           font-size: small; } }
-  rl-ka-refer-landing footer {
+  rl-wp-refer-landing footer {
     font-family: Helvetica, Arial, sans-serif;
     width: 100%;
     color: #333;
     padding-top: 50px;
     overflow: hidden; }
-    rl-ka-refer-landing footer #footer-wrap {
+    rl-wp-refer-landing footer #footer-wrap {
       width: 944px;
       margin: 0 auto;
       border-top: 1px solid #BBB;
       padding: 5px 0 10px 0; }
-    rl-ka-refer-landing footer a {
+    rl-wp-refer-landing footer a {
       text-decoration: none;
       color: #333; }
-    rl-ka-refer-landing footer ul {
+    rl-wp-refer-landing footer ul {
       float: left;
       width: 140px;
       list-style: none;
       margin: 0;
       padding: 0; }
-    rl-ka-refer-landing footer ul:not(:last-child) {
+    rl-wp-refer-landing footer ul:not(:last-child) {
       margin-right: 20px; }
-    rl-ka-refer-landing footer ul li {
+    rl-wp-refer-landing footer ul li {
       font-size: 7pt;
       width: 100%;
       margin-top: 5px; }
-      rl-ka-refer-landing footer ul li a:hover {
+      rl-wp-refer-landing footer ul li a:hover {
         text-decoration: underline;
         cursor: pointer; }
-      rl-ka-refer-landing footer ul li.split {
+      rl-wp-refer-landing footer ul li.split {
         padding-top: 15px; }
-      rl-ka-refer-landing footer ul li.split span:first-child {
+      rl-wp-refer-landing footer ul li.split span:first-child {
         padding-right: 3px; }
-      rl-ka-refer-landing footer ul li.split span:last-child {
+      rl-wp-refer-landing footer ul li.split span:last-child {
         margin-left: 3px; }
-      rl-ka-refer-landing footer ul li:first-child {
+      rl-wp-refer-landing footer ul li:first-child {
         text-transform: uppercase;
         color: black;
         font-weight: 500;
         padding-bottom: 5px;
         border-bottom: 1px dotted black; }
-      rl-ka-refer-landing footer ul li:nth-child(2) {
+      rl-wp-refer-landing footer ul li:nth-child(2) {
         margin-top: 8px; }
-  rl-ka-refer-landing footer {
+  rl-wp-refer-landing footer {
     width: 100%; }
-  rl-ka-refer-landing h1, rl-ka-refer-landing h2, rl-ka-refer-landing h3, rl-ka-refer-landing h4, rl-ka-refer-landing h5, rl-ka-refer-landing [class*='title'] {
+  rl-wp-refer-landing h1, rl-wp-refer-landing h2, rl-wp-refer-landing h3, rl-wp-refer-landing h4, rl-wp-refer-landing h5, rl-wp-refer-landing [class*='title'] {
     color: #313131 !important;
     cursor: default;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 400; }
-  rl-ka-refer-landing p, rl-ka-refer-landing span, rl-ka-refer-landing div {
+  rl-wp-refer-landing p, rl-wp-refer-landing span, rl-wp-refer-landing div {
     cursor: pointer; }
-  rl-ka-refer-landing * {
+  rl-wp-refer-landing * {
     box-sizing: border-box; }
-  rl-ka-refer-landing a {
+  rl-wp-refer-landing a {
     color: #FFFFFF; }
-  rl-ka-refer-landing > *:not(header):not(footer) {
+  rl-wp-refer-landing > *:not(header):not(footer) {
     width: 100%;
     max-width: 944px;
     min-width: 320px;
@@ -1177,5 +1186,5 @@ rl-ka-refer-landing {
     position: relative;
     display: block; }
 
-[class*="explorer"] features .ka-landing-feature-button-over:hover {
+[class*="explorer"] features .wp-landing-feature-button-over:hover {
   opacity: 1; }

@@ -9,7 +9,7 @@ html, body {
     width: 100%;
 }
 
-rl-ka-refer-landing {
+rl-wp-refer-landing {
 	@import 'reset.scss';
 	@import 'variables.scss';
 	@import 'mixins.scss';
@@ -31,6 +31,7 @@ rl-ka-refer-landing {
 	font-size: 12pt;
 	position: relative;
 	display: block;
+	margin-top: 118px;
 
 	h1,h2,h3,h4,h5,[class*='title'] {
 		color: $titleColor !important;

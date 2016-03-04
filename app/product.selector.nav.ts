@@ -1,8 +1,10 @@
 import {Component, Input, Output, EventEmitter} from 'angular2/core'
 import {AppData} from './services/appdata.service'
+import {InsertBreakPipe} from './insertBreak.pipe'
 
 @Component({
     selector: 'product-selector-nav',
+    pipes: [InsertBreakPipe],
     templateUrl: 'app/views/product.selector.nav.view.html'
 })
 

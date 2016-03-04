@@ -84,7 +84,7 @@ export class AppData {
 				title: "Must-See Innovation",
 				videos: [
 					{
-						id: '9IFIdkLo29Y',
+						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Lorem ipsum dolor sit amet',
 						ctaTitle: 'Perfect Places<sup>&trade;</sup>',
@@ -92,7 +92,7 @@ export class AppData {
 						desc: 'Nam ac vehicula nisl. Vestibulum auctor tellus vitae lectus dapibus, vel vehicula ante lobortis. Ut porttitor sagittis lectus a accumsan. Ut feugiat facilisis nunc, nec posuere nibh suscipit at. Etiam tempus purus sit amet sapien condimentum semper.'
 					},
 					{
-						id: 'fWbEHxpUEwM',
+						image: './public/images/video-thumb-2.jpg',
 						thumb: './public/images/video-select-2.jpg',
 						title: 'Lorem ipsum dolor sit amet',
 						ctaTitle: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
@@ -100,7 +100,7 @@ export class AppData {
 						desc: 'Nam ac vehicula nisl. Vestibulum auctor tellus vitae lectus dapibus, vel vehicula ante lobortis. Ut porttitor sagittis lectus a accumsan. Ut feugiat facilisis nunc, nec posuere nibh suscipit at. Etiam tempus purus sit amet sapien condimentum semper.'
 					},
 					{
-						id: 'RxnPMBOUWfk',
+						image: './public/images/video-thumb-3.jpg',
 						thumb: './public/images/video-select-3.jpg',
 						title: 'Lorem ipsum dolor sit amet',
 						ctaTitle: 'StoreRight<sup>&trade;</sup> System',
@@ -118,7 +118,7 @@ export class AppData {
 				},
 				products: [
 					{
-						image: "./public/images/products/french-door.png",
+						image: "./public/images/products/double-drawer.png",
                         title: "Double Drawer",
                         desc: "Get even more organized with our versatile Double Drawer refrigerator, designed with your family's needs in mind. This unique style offers 9 storage zones with our PerfectPlaces™ System, including our temperature-controlled drawer and small items bin.",
                         link: "http://www.whirlpool.ca",
@@ -127,14 +127,14 @@ export class AppData {
                     },
 					{
             			image: "./public/images/products/french-door.png",
-                        title: "French<br/>Door",
+                        title: "French Door",
                         desc: "Our French Door refrigerators offer the flexible organization and convenience to keep your fresh foods at eye level and easily store your frozen favourites. The premium look and optimal capacity make these refrigerators an ideal piece for your family's kitchen.",
                         link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/",
                         id: "french-door",
                         ctaText: "Learn More"
                     },
             		{
-						image: "./public/images/products/french-door.png",
+						image: "./public/images/products/side-by-side.png",
                         title: "Side-by-Side",
                         desc: "Learn all the ways more door bin space makes it easy for your family to organize and access items big or small. This classic style offers a great balance of space for both fresh and frozen foods with the flexibility for different size options.",
                         link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110369/",
@@ -142,23 +142,23 @@ export class AppData {
                         ctaText: "Learn More"
                     },
             		{
-						image: "./public/images/products/french-door.png",
-                        title: "Bottom<br/>Freezer",
+						image: "./public/images/products/bottom-freezer.png",
+                        title: "Bottom Freezer",
                         desc: "See how convenient it is to reach fresh foods and after-school snacks on the go. You have the option of pull-out drawer or swing-door style freezers, plus a variety of sizes to fit any space in your home.",
                         link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110370/",
                         id: "bottom-freezer",
                         ctaText: "Learn More"
                     },
                     {
-						image: "./public/images/products/french-door.png",
-                        title: "Top<br/>Freezer",
+						image: "./public/images/products/top-freezer.png",
+                        title: "Top Freezer",
                         desc: "There's always a place for fresh and frozen favourites inside this simple, classic style. Our Top Freezer refrigerator offers great quality and value and is available in smaller sizes for use as second one when you need the extra space.",
                         link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030+4294966865/",
                         id: "top-freezer",
                         ctaText: "Learn More"
                     },
             		{
-						image: "./public/images/products/french-door.png",
+						image: "./public/images/products/freezer.png",
                         title: "Freezers",
                         desc: "See all the extra storage for frozen foods, from pizza to popsicles. Our chest and upright styles ensure the perfect fit for any home.",
                         link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/",

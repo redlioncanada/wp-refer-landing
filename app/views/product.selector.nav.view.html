@@ -3,7 +3,7 @@
 		<img src="{{product.prodImage}}"/>
 		<div class="wp-refer-landing-button">
 			<div class="wp-refer-landing-button-circle"><div></div></div>
-			<p [innerHtml]="product.prodName"></p>
+			<p [innerHtml]="product.prodName | insertBreak"></p>
 		</div>
 	</div>
 	<a target="_blank" href="{{ctaLink}}"><div class="see-all">

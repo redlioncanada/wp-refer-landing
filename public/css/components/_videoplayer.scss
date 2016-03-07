@@ -4,9 +4,8 @@ videoplayer {
         margin-top: 50px;
         margin-bottom: 20px;
          @media screen and (max-width: $mobileBreakpoint) {
-         
-                font-size: 2em;
-         
+         	margin-top: 0px;
+            font-size: 2em;
         }
 	}
     
@@ -39,7 +38,7 @@ videoplayer {
 		}
 
 		li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
-			margin-top: -60px;
+			margin-top: -30px;
 		}
 
 	}
@@ -112,7 +111,7 @@ videoplayer-selector {
 			color: $videoPlayer-copyColor !important;
 
 			@media screen and (max-width: $mobileBreakpoint) {
-	        	font-size: 1.2em;
+	        	font-size: 1.1em;
 	        }
 		}
 

@@ -10,8 +10,8 @@ product-selector {
         margin-top: 50px;
         margin-bottom: 50px;
         @media screen and (max-width: 1366px) {
-                font-size: 2em;
-                margin-top: 35px;
+            font-size: 2em;
+            margin-top: 35px;
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
@@ -236,6 +236,13 @@ product-selector-nav {
             font-weight: 400;
             text-align: center;
         }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            p {
+                font-size: 0.9em;
+                font-weight: 200;
+            }
+        }
     }
 
     .wp-refer-landing-product:hover {
@@ -293,8 +300,21 @@ product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
             clear: left;
             width: 97%;
-            height: 40px;
             margin-top: 10px;
+            display: initial;
+            padding: initial;
+
+            div {
+                margin-top: initial;
+                margin: 0 auto;
+                width: 60px;
+                height: 60px;
+            }
+
+            p {
+                font-size: 1em;
+                line-height: 15px;
+            }
         }
     }
 }
@@ -321,7 +341,7 @@ product-selector.fr {
     product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
             div .wp-refer-landing-button p {
-                font-size: 1em;
+                font-size: 0.9em;
                 font-weight: 200;
             }
         }

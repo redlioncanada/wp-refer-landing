@@ -84,28 +84,28 @@ export class AppData {
 				title: "Must-See Innovation",
 				videos: [
 					{
-						image: './public/images/video-thumb-1.jpg',
+						id: '8uqalJESFos',
 						thumb: './public/images/video-select-1.jpg',
-						title: 'Lorem ipsum dolor sit amet',
+						title: 'Perfect Places<sup>&trade;</sup>',
 						ctaTitle: 'Perfect Places<sup>&trade;</sup>',
 						cta: 'Play Video',
-						desc: 'Nam ac vehicula nisl. Vestibulum auctor tellus vitae lectus dapibus, vel vehicula ante lobortis. Ut porttitor sagittis lectus a accumsan. Ut feugiat facilisis nunc, nec posuere nibh suscipit at. Etiam tempus purus sit amet sapien condimentum semper.'
+						desc: false
 					},
 					{
-						image: './public/images/video-thumb-2.jpg',
+						id: 'xI986ew0VD0',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Lorem ipsum dolor sit amet',
+						title: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
 						ctaTitle: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
 						cta: 'Play Video',
-						desc: 'Nam ac vehicula nisl. Vestibulum auctor tellus vitae lectus dapibus, vel vehicula ante lobortis. Ut porttitor sagittis lectus a accumsan. Ut feugiat facilisis nunc, nec posuere nibh suscipit at. Etiam tempus purus sit amet sapien condimentum semper.'
+						desc: false,
 					},
 					{
-						image: './public/images/video-thumb-3.jpg',
+						id: 'j-SeXWbpEaw',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'Lorem ipsum dolor sit amet',
+						title: 'StoreRight<sup>&trade;</sup> System',
 						ctaTitle: 'StoreRight<sup>&trade;</sup> System',
 						cta: 'Play Video',
-						desc: 'Nam ac vehicula nisl. Vestibulum auctor tellus vitae lectus dapibus, vel vehicula ante lobortis. Ut porttitor sagittis lectus a accumsan. Ut feugiat facilisis nunc, nec posuere nibh suscipit at. Etiam tempus purus sit amet sapien condimentum semper.'
+						desc: false
 					}
 				]
 			},

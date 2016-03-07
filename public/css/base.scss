@@ -59,6 +59,10 @@ rl-wp-refer-landing {
 		position: relative;
 		display: block;
 	}
+
+	@media screen and (max-width: $mobileBreakpoint) {
+		margin-top: initial;
+	}
 }
 
 @import 'components/browser-specific/ie.scss';

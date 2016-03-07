@@ -5,6 +5,7 @@ export class ProductModel{
                 public prodDescription:string = "",
                 public prodUrl:string = "",
                 public prodId:string = "",
-                public ctaText:string = ""
+                public ctaText:string = "",
+                public prodAlt: string = ""
                 ){}
 }

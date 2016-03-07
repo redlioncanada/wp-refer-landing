@@ -18,6 +18,7 @@ export class FeatureButton extends TimelineController {
     @Input() btnRollOverCTA
     @Input() btnLink
     @Input() btnType
+    @Input() btnAlt
 
     private rootElement;
     private elementRef: ElementRef;

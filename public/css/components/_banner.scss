@@ -17,3 +17,12 @@ banner {
         }
 	}
 }
+
+banner.fr {
+	learn-more-button {
+		@media screen and (max-width: $mobileBreakpoint) {
+			right: 37%;
+			width: 28%;
+		}
+	}
+}

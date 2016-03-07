@@ -17,6 +17,7 @@ export class ProductSlide {
     @Input() fridgeId
     @Input() selected
     @Input() ctaText
+    @Input() fridgeAlt
     
     ngOnChanges(changes) {
         if ("selected" in changes) {

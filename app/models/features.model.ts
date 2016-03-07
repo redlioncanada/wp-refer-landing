@@ -5,6 +5,7 @@ export class FeatureModel{
                 public btnRollOverCopy:string = "",
                 public btnRollOverCTA: string = "",
                 public btnLink: string = "",
-                public btnType:String = ""
+                public btnType: string = "",
+                public btnAlt:string = ""
                 ){}
 }

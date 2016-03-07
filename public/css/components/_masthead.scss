@@ -3,7 +3,11 @@ masthead {
 	position: relative;
 	display: block;
 	padding-top: 20px;
-    
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        padding-top: initial;
+    }
+
     #wp-landing-masthead {
         overflow: hidden;
         cursor: default;
@@ -23,6 +27,7 @@ masthead {
                 left: 0px;
                 right: 0px;
         }
+        @include transition(0.5s);
     }
 
     .wp-landing-title{

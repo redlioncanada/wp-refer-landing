@@ -14,4 +14,5 @@ export class MoreFeaturesFeature {
     @Input() link
     @Input() text
     @Input() cta
+    @Input() alt
 }

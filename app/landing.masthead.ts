@@ -9,6 +9,7 @@ export class AppMasthead {
 	private image: string
 	private title: string
 	private enabled: boolean
+	private alt: string
 
 	constructor(private appdata: AppData) {
 		this.enabled = true
@@ -17,5 +18,6 @@ export class AppMasthead {
 		this.enabled = data.masthead.enabled
 		this.image = data.masthead.image
 		this.title = data.masthead.title
+		this.alt = data.masthead.alt
 	}
 }

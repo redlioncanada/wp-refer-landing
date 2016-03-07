@@ -341,7 +341,7 @@ product-selector.fr {
     product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
             div .wp-refer-landing-button p {
-                font-size: 0.9em;
+                font-size: 0.6em;
                 font-weight: 200;
             }
         }
@@ -365,4 +365,8 @@ product-selector.fr {
     background-position: 0 -280px;
     top: 310px;
     left: -90px;
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        left: 0;
+    }
 }

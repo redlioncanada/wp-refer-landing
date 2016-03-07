@@ -27,7 +27,8 @@ export class Features {
                     feature.desc,
                     feature.cta,
                     feature.link,
-                    feature.type
+                    feature.type,
+                    feature.alt
                 )
             )
         }

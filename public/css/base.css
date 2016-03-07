@@ -447,7 +447,10 @@ rl-wp-refer-landing {
     rl-wp-refer-landing videoplayer > ul li:nth-child(2) img {
       width: 101.5%; }
     rl-wp-refer-landing videoplayer > ul li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
-      margin-top: -30px; }
+      margin-top: -65px; }
+    @media screen and (max-width: 820px) {
+      rl-wp-refer-landing videoplayer > ul li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
+        margin-top: -23px; } }
   rl-wp-refer-landing videoplayer-player {
     width: 100%; }
     rl-wp-refer-landing videoplayer-player ul {
@@ -493,7 +496,7 @@ rl-wp-refer-landing {
         color: #FFFFFF !important; }
         @media screen and (max-width: 820px) {
           rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
-            font-size: 1.1em; } }
+            font-size: 1.0em; } }
       rl-wp-refer-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-button {
         font-size: 0.8em;
         position: relative;

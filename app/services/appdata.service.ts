@@ -215,21 +215,21 @@ export class AppData {
 				title: "Plus de fonctions fraîcheur",
 				features: [
 					{
-						title: "Additional Accessories(fr)",
+						title: "Accessoires supplémentaires",
 						image: "./public/images/more-features-1.jpg",
 						link: "http://www.whirlpool.ca/fr_CA/Accessories-1/Accessories_Kitchen_Accessories_Refrigerator-3/102280119/",
 						text: "",
 						cta: ""
 					},
 					{
-						title: "Water Filtration(fr)",
+						title: "Filtres à eau",
 						image: "./public/images/more-features-2.jpg",
 						link: "http://www.whirlpool.ca/fr_CA/2_3_80/jump-pages_water-filters.content.html",
 						text: "",
 						cta: ""
 					},
 					{
-						title: "Certified Care(fr)",
+						title: "Entretien autorisé",
 						image: "./public/images/more-features-3.jpg",
 						link: "https://whirlpoolcertifiedcare.ca/fr",
 						text: "",

@@ -110,7 +110,7 @@ features {
 
         @media screen and (max-width: 1275px) {
             font-size: 0.8em;
-            top: 148px;
+            top: 144px;
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
@@ -230,6 +230,7 @@ features {
     feature-button:last-of-type {
         .wp-landing-feature-button {
             margin-right: 0px;
+            margin-left: 2px;
         }
 
         .wp-landing-feature-button:after {
@@ -239,15 +240,67 @@ features {
 }
 
 features.fr {
+    .row {
+        @media screen and (max-width: 1275px) {
+            $featureButtonHeight: 235px;
+            height: $featureButtonHeight;
+
+            .wp-landing-feature-button:after {
+                height: $featureButtonHeightMobile*0.7 !important;
+                top: $featureButtonHeightMobile*0.3 / 2 !important;
+            }
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            $featureButtonHeight: 230px;
+            height: $featureButtonHeight;
+
+            .wp-landing-feature-button:after {
+                height: $featureButtonHeightMobile*0.7 !important;
+                top: $featureButtonHeightMobile*0.3 / 2 !important;
+            }
+        }
+    }
+
     .wp-landing-feature-rule {
-        top: 180px;
+        top: 187px;
+
+        @media screen and (max-width: 1275px) {
+            top: 124px;
+            font-size: 0.7em;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            top: 132px;
+        }
     }
 
     .wp-landing-over-cta {
         top: 240px;
 
+        @media screen and (max-width: 1275px) {
+            top: 188px;
+        }
+
         @media screen and (max-width: $mobileBreakpoint) {
-            top: 168px;
+            top: 190px;
+        }
+    }
+
+    .wp-landing-feature-title {
+        @media screen and (max-width: 1275px) {
+            top: 95px;
+            font-size: 0.8em;
+        }
+    }
+
+    .wp-landing-over-copy {
+        @media screen and (max-width: 1275px) {
+            top: 148px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            top: 150px;
         }
     }
 }

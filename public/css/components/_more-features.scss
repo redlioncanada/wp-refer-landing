@@ -27,7 +27,6 @@ more-features {
 more-features-feature {
 	width: 33.33333333333%;
 	float: left;
-	display: table;
 
 	.hover {
 		position: relative;
@@ -88,7 +87,6 @@ more-features-feature {
 
 	.bottom-text {
 		text-align: center;
-		margin-top: 15px;
 		color: $moreFeaturesTitlesColor
 	}
 }

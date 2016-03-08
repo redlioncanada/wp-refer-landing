@@ -124,7 +124,7 @@ export class AppData {
 				title: 'Choose Your Style',
 				nav: {
 					text: 'See<br/>All',
-					link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/'
+					link: 'http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back'
 				},
 				products: [
 					{
@@ -267,29 +267,29 @@ export class AppData {
 					{
 						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-1.jpg',
-						title: 'Perfect Places<sup>&trade;</sup>',
-						ctaTitle: 'Perfect Places<sup>&trade;</sup>',
+						title: 'Système de rangement Perfect Places<sup>&trade;</sup>',
+						ctaTitle: 'Système de rangement Perfect Places™<sup>&trade;</sup>',
 						alt: "test",
 						cta: 'Voir',
-						desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum tempus leo, at sollicitudin ligula lobortis venenatis. Aliquam ut gravida lorem.(fr)'
+						desc: 'La conception Whirlpool à double tiroir  offre cinq zones de rangement uniques pour mieux organiser vos articles. Il s\'agit de notre réfrigérateur le plus flexible à ce jour.'
 					},
 					{
 						image: './public/images/video-thumb-2.jpg',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
-						ctaTitle: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
+						title: 'Resource Saver<sup>&trade;</sup> et EasyView<sup>&trade;</sup>',
+						ctaTitle: 'Resource Saver<sup>&trade;</sup><br/>et EasyView<sup>&trade;</sup>',
 						alt: "test",
 						cta: 'Voir',
-						desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum tempus leo, at sollicitudin ligula lobortis venenatis. Aliquam ut gravida lorem.(fr)',
+						desc: 'Les réfrigérateurs les plus efficaces de l’industrie dans leur catégorie respective. Augmentez la souplesse de rangement de votre réfrigérateur et préservez la fraîcheur et le bon goût de vos fruits et légumes grâce au système de bacs à légumes triples EasyView™. Désormais, vous pouvez facilement voir et accéder aux aliments grâce à la visibilité totale à travers le bac à légumes. De plus, vous pourrez ranger une grande variété d\'articles grâce aux trois tiroirs. Le contrôle automatique d\'humidité contribue également à maintenir la fraîcheur.',
 					},
 					{
 						image: './public/images/video-thumb-3.jpg',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'System StoreRight<sup>&trade;</sup>',
-						ctaTitle: 'System StoreRight<sup>&trade;</sup>',
+						title: 'Système de rangement StoreRight<sup>&trade;</sup>',
+						ctaTitle: 'Système de rangement StoreRight<sup>&trade;</sup>',
 						alt: "test",
 						cta: 'Voir',
-						desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum tempus leo, at sollicitudin ligula lobortis venenatis. Aliquam ut gravida lorem.(fr)'
+						desc: 'Le système de rangement StoreRight™ préserve la fraîcheur des aliments et réduit les brûlures de congélation, grâce à une technologie de refroidissement perfectionnée et ajuste automatiquement les niveaux d\'humidité.'
 					}
 				]
 			},
@@ -298,7 +298,7 @@ export class AppData {
 				title: 'Choisissez votre style',
 				nav: {
 					text: 'Tout<br/>Voir',
-					link: 'http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/'
+					link: 'http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back'
 				},
 				products: [
 					{
@@ -321,7 +321,7 @@ export class AppData {
                     },
 					{
 						image: "./public/images/products/side-by-side.png",
-                        title: "Côte à côte",
+                        title: "Côté à côté",
                         desc: "Découvrez l’avantage d’un espace supplémentaire dans les balconnets de porte qui facilitent le rangement et l'accès aux petits ou grands articles. Ce style classique offre un rangement parfaitement équilibré entre les aliments frais et surgelés, avec la possibilité de choisir différentes tailles.",
                         link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110369/",
                         alt: "test",

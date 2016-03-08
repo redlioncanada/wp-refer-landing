@@ -45,6 +45,14 @@ product-selector {
             width: 100%;
             left: 0;
         }
+
+        #freezers img {
+            margin-left: -50px;
+
+            @media screen and (max-width: $mobileBreakpoint) {
+                margin: 0 auto;
+            }
+        }
     }
 
     @media screen and (max-width: $mobileBreakpoint) {
@@ -97,8 +105,8 @@ product-selector {
         position: absolute;
         left: 490px;
         top: 325px;
-        width: 135px;
-        height: 40px;
+        width: 115px;
+        height: 30px;
         opacity: 0;
 
         @media screen and (max-width: 1366px) {
@@ -355,6 +363,10 @@ product-selector.fr {
             }
         }
     }
+
+    learn-more-button{
+        width: 135px;
+    }
 }
 
 .product-slide-background {
@@ -365,6 +377,7 @@ product-selector.fr {
     background-position: 0 -280px;
     top: 310px;
     left: -90px;
+    opacity: 0.5;
 
     @media screen and (max-width: $mobileBreakpoint) {
         left: 0;

@@ -1217,7 +1217,8 @@ rl-wp-refer-landing {
       width: 100%; }
     rl-wp-refer-landing more-features-feature .bottom-text {
       text-align: center;
-      color: #000000; }
+      color: #000000;
+      margin-top: -5px; }
   rl-wp-refer-landing banner {
     cursor: default; }
     rl-wp-refer-landing banner img {

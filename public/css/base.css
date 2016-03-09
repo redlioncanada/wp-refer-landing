@@ -697,17 +697,18 @@ rl-wp-refer-landing {
       font-weight: 800;
       top: 198px;
       opacity: 0;
+      font-size: smaller;
       -webkit-transition: all 0.2s ease;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
       @media screen and (max-width: 1275px) {
         rl-wp-refer-landing features .wp-landing-over-copy {
-          font-size: 0.8em;
+          font-size: smaller;
           top: 144px; } }
       @media screen and (max-width: 820px) {
         rl-wp-refer-landing features .wp-landing-over-copy {
-          font-size: 0.6em;
+          font-size: 0.5em;
           top: 135px; } }
     rl-wp-refer-landing features .wp-landing-over-copy, rl-wp-refer-landing features .wp-landing-over-cta {
       width: 100%;

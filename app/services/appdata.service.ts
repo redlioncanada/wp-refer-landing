@@ -232,7 +232,7 @@ export class AppData {
 			},
 			morefeatures: {
 				enabled: true,
-				title: "Plus de fonctions fraîcheur",
+				title: "Fonctions supplémentaires",
 				features: [
 					{
 						title: "Accessoires supplémentaires",
@@ -276,11 +276,11 @@ export class AppData {
 					{
 						image: './public/images/video-thumb-2.jpg',
 						thumb: './public/images/video-select-2.jpg',
-						title: 'Resource Saver<sup>&trade;</sup> et EasyView<sup>&trade;</sup>',
-						ctaTitle: 'Resource Saver<sup>&trade;</sup><br/>et EasyView<sup>&trade;</sup>',
+						title: 'Fonctions Resource Saver<sup>&trade;</sup> et EasyView<sup>&trade;</sup>',
+						ctaTitle: 'Fonctions Resource Saver<sup>&trade;</sup><br/>et EasyView<sup>&trade;</sup>',
 						alt: "test",
 						cta: 'Voir',
-						desc: 'Les réfrigérateurs les plus efficaces de l’industrie dans leur catégorie respective. Augmentez la souplesse de rangement de votre réfrigérateur et préservez la fraîcheur et le bon goût de vos fruits et légumes grâce au système de bacs à légumes triples EasyView™. Désormais, vous pouvez facilement voir et accéder aux aliments grâce à la visibilité totale à travers le bac à légumes. De plus, vous pourrez ranger une grande variété d\'articles grâce aux trois tiroirs. Le contrôle automatique d\'humidité contribue également à maintenir la fraîcheur.',
+						desc: 'Les réfrigérateurs les plus efficaces de l’industrie dans leur catégorie respective. Augmentez la souplesse de rangement de votre réfrigérateur et préservez la fraîcheur et le bon goût de vos fruits et légumes grâce au système de bacs à légumes triples EasyView™. Désormais, vous pouvez facilement accéder aux aliments grâce à la visibilité totale à travers le bac à légumes. De plus, vous pourrez ranger une grande variété d\'articles grâce aux trois tiroirs. Le contrôle automatique d\'humidité contribue également à maintenir la fraîcheur.',
 					},
 					{
 						image: './public/images/video-thumb-3.jpg',
@@ -321,7 +321,7 @@ export class AppData {
                     },
 					{
 						image: "./public/images/products/side-by-side.png",
-                        title: "Côté à côté",
+                        title: "Côte à côte",
                         desc: "Découvrez l’avantage d’un espace supplémentaire dans les balconnets de porte qui facilitent le rangement et l'accès aux petits ou grands articles. Ce style classique offre un rangement parfaitement équilibré entre les aliments frais et surgelés, avec la possibilité de choisir différentes tailles.",
                         link: "http://www.whirlpool.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators-3/102280023+102110368/#back",
                         alt: "test",
@@ -349,7 +349,7 @@ export class AppData {
 					{
 						image: "./public/images/products/freezer.png",
                         title: "Congélateurs",
-                        desc: "Découvrez tout l'espace supplémentaire pour les aliments congelés, tels que les pizzas ou les sucettes glacées. Nos modèles horizontaux ou verticaux assurent l'ajustement idéal pour tout espace.",
+                        desc: "Découvrez tout l'espace supplémentaire pour les aliments congelés, tels que les pizzas ou les suçons glacées. Nos modèles horizontaux ou verticaux assurent l'ajustement idéal pour tout espace.",
                         link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/",
                         alt: "test",
                         id: "freezers",

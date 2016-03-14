@@ -89,5 +89,9 @@ more-features-feature {
 		text-align: center;
 		color: $moreFeaturesTitlesColor;
 		margin-top: -5px;
+
+		@media screen and (max-width: $mobileBreakpoint) {
+			margin-top: 0px;
+		}
 	}
 }

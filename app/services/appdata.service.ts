@@ -33,7 +33,7 @@ export class AppData {
 			            alt: "test",
 						desc: "What to look for when buying",
 			            cta: "Click Here",
-			            link: "http://whirlpool.ca",
+						link: "http://blog.whirlpool.ca/whirlpool-refrigerator-buying-guide/",
 			            type: "cart"
 					},
 			        {
@@ -201,15 +201,15 @@ export class AppData {
 			features: {
 				enabled: true,
 				features: [
-					{
-						image: "./public/images/refer-landing-shopping-cart.png",
-						title: "Guide D'achat",
-						desc: "Éléments à considérer lorsque vous magasinez",
-						alt: "test",
-						cta: "Cliquez ici",
-						link: "http://whirlpool.ca/fr_CA/",
-						type: "cart"
-					},
+					// {
+					// 	image: "./public/images/refer-landing-shopping-cart.png",
+					// 	title: "Guide D'achat",
+					// 	desc: "Éléments à considérer lorsque vous magasinez",
+					// 	alt: "test",
+					// 	cta: "Cliquez ici",
+					// 	link: "http://whirlpool.ca/fr_CA/",
+					// 	type: "cart"
+					// },
 					{
 						image: "./public/images/refer-landing-star.png",
 						title: "Classements et Évaluations",
@@ -268,7 +268,7 @@ export class AppData {
 						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Système de rangement Perfect Places<sup>&trade;</sup>',
-						ctaTitle: 'Système de rangement Perfect Places™<sup>&trade;</sup>',
+						ctaTitle: 'Système de rangement Perfect Places<sup>&trade;</sup>',
 						alt: "test",
 						cta: 'Voir',
 						desc: 'La conception Whirlpool à double tiroir  offre cinq zones de rangement uniques pour mieux organiser vos articles. Il s\'agit de notre réfrigérateur le plus flexible à ce jour.'
@@ -349,7 +349,7 @@ export class AppData {
 					{
 						image: "./public/images/products/freezer.png",
                         title: "Congélateurs",
-                        desc: "Découvrez tout l'espace supplémentaire pour les aliments congelés, tels que les pizzas ou les suçons glacées. Nos modèles horizontaux ou verticaux assurent l'ajustement idéal pour tout espace.",
+                        desc: "Découvrez tout l'espace supplémentaire pour les aliments congelés, tels que les pizzas ou les suçons glacés. Nos modèles horizontaux ou verticaux assurent l'ajustement idéal pour tout espace.",
                         link: "http://www.whirlpool.ca/fr_CA/Kitchen-1/Kitchen_Refrigeration_Freezers-3/102280030/",
                         alt: "test",
                         id: "freezers",

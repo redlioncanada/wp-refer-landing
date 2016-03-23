@@ -704,7 +704,7 @@ rl-wp-refer-landing {
       transition: all 0.2s ease; }
       @media screen and (max-width: 1275px) {
         rl-wp-refer-landing features .wp-landing-over-copy {
-          font-size: smaller;
+          font-size: 11px;
           top: 144px; } }
       @media screen and (max-width: 820px) {
         rl-wp-refer-landing features .wp-landing-over-copy {

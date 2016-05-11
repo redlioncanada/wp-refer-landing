@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {AppData} from './services/appdata.service'
+import {AppDataService} from './services/appdata.service'
 
 @Component({
     selector: 'masthead',
@@ -11,7 +11,7 @@ export class AppMasthead {
 	private enabled: boolean
 	private alt: string
 
-	constructor(private appdata: AppData) {
+	constructor(private appdata: AppDataService) {
 		this.enabled = true
 		var data = appdata.get()
 

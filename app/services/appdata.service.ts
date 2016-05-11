@@ -1,14 +1,14 @@
 
 import {Injectable} from 'angular2/core';
-import {Logger} from './logger.service'
+import {LoggerService} from './logger.service'
 
 @Injectable()
-export class AppData {
+export class AppDataService {
 	private contents;
 	public language: string;
 	private init: boolean
 
-	constructor(private logger: Logger) {
+	constructor(private logger: LoggerService) {
 		this.language = this.getLanguage()
 		this.contents = {}
 		this.contents.en = {
@@ -27,33 +27,33 @@ export class AppData {
 			features: {
 				enabled: true,
 				features: [
-			        {
-			        	image: "./public/images/refer-landing-shopping-cart.png",
-			            title: "Buying Guide",
-			            alt: "test",
-						desc: "What to look for when buying",
-			            cta: "Click Here",
-						link: "http://blog.whirlpool.ca/whirlpool-refrigerator-buying-guide/",
-			            type: "cart"
-					},
-			        {
-			        	image: "./public/images/refer-landing-star.png",
-			            title: "Ratings and Reviews",
+					{
+						image: "./public/images/refer-landing-shopping-cart.png",
+						title: "Buying Guide",
 						alt: "test",
-			            desc: "See what others are saying",
-			            cta: "Click Here",
-						link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html",
-			            type: "star"
+						desc: "What to look for when buying",
+						cta: "Click Here",
+						link: "http://blog.whirlpool.ca/whirlpool-refrigerator-buying-guide/",
+						type: "cart"
 					},
 					{
-			        	image: "./public/images/refer-landing-mag-glass.png",
-			        	title: "Find Your Whirlpool",
+						image: "./public/images/refer-landing-star.png",
+						title: "Ratings and Reviews",
 						alt: "test",
-			        	desc: "Need help finding your refrigerator?",
-			        	cta: "Click Here",
-			        	link: "http://findmy.whirlpool.ca",
-			        	type: "magnifier"
-			    	}
+						desc: "See what others are saying",
+						cta: "Click Here",
+						link: "http://www.whirlpool.ca/en_CA/2_3_90/jump-pages_best-products.content.html",
+						type: "star"
+					},
+					{
+						image: "./public/images/refer-landing-mag-glass.png",
+						title: "Find Your Whirlpool",
+						alt: "test",
+						desc: "Need help finding your refrigerator?",
+						cta: "Click Here",
+						link: "http://findmy.whirlpool.ca",
+						type: "magnifier"
+					}
 				]
 			},
 			morefeatures: {
@@ -137,7 +137,7 @@ export class AppData {
                         ctaText: "Learn More"
                     },
 					{
-            			image: "./public/images/products/french-door.png",
+						image: "./public/images/products/french-door.png",
                         title: "French Door",
                         alt: "test",
                         desc: "Our French Door refrigerators offer the flexible organization and convenience to keep your fresh foods at eye level and easily store your frozen favourites. The premium look and optimal capacity make these refrigerators an ideal piece for your family's kitchen.",
@@ -145,7 +145,7 @@ export class AppData {
                         id: "french-door",
                         ctaText: "Learn More"
                     },
-            		{
+					{
 						image: "./public/images/products/side-by-side.png",
                         title: "Side-by-Side",
                         alt: "test",
@@ -154,7 +154,7 @@ export class AppData {
                         id: "side-by-side",
                         ctaText: "Learn More"
                     },
-            		{
+					{
 						image: "./public/images/products/bottom-freezer.png",
                         title: "Bottom Freezer",
                         alt: "test",
@@ -172,7 +172,7 @@ export class AppData {
                         id: "top-freezer",
                         ctaText: "Learn More"
                     },
-            		{
+					{
 						image: "./public/images/products/freezer.png",
                         title: "Freezers",
                         alt: "test",
@@ -373,3 +373,4 @@ export class AppData {
 		if (url.indexOf('/fr_CA') > -1) return 'fr'
 		return 'en'
 	}
+}

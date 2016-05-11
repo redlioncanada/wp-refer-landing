@@ -1,5 +1,5 @@
 import {Component, Input} from 'angular2/core'
-import {Logger} from './services/logger.service'
+import {LoggerService} from './services/logger.service'
 
 @Component({
 	selector: 'videoplayer-video',
@@ -13,7 +13,7 @@ export class VideoPlayerVideo {
 	public ready: boolean
 	public ended: boolean
 
-	constructor(private logger: Logger) {
+	constructor(private logger: LoggerService) {
 		this.ready = false
 		this.selected = true
 		this.ended = false
@@ -51,7 +51,6 @@ export class VideoPlayerVideo {
 	ngOnChanges(changes) {
 		if (this.hasVideo()) {
 			if ("selected" in changes) {
-				console.log(changes);
 				if (changes.selected.currentValue) {
 					//if (this.ended) {
 					this.ended = false
@@ -99,10 +98,7 @@ export class VideoPlayerVideo {
 	restart(self) {
 		if (!self) self = this
 		if (!self.ready || !self.hasVideo()) return
-		//this is finicky, sometimes just doesn't work
-		//seems to be a bug with the player
-		//maybe we could que an interval on self.play until we see the state change, but that seems hacky
-		//self.reset(self)
+
         self.player.seekTo(0)
 		self.play(self)
 	}
@@ -110,6 +106,5 @@ export class VideoPlayerVideo {
 	reset(self) {
 		if (!self) self = this
 		if (!self.ready || !self.hasVideo()) return
-		//self.player.seekTo(0)
 	}
 }

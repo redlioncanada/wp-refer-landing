@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core'
 import {ProductSlides} from './product.selector.slides'
 import {ProductSelectorNav} from './product.selector.nav'
-import {AppData} from './services/appdata.service'
+import {AppDataService} from './services/appdata.service'
 import {ProductModel} from './models/products.model'
 
 @Component({
@@ -10,19 +10,19 @@ import {ProductModel} from './models/products.model'
     directives: [ProductSlides, ProductSelectorNav],
 })
 export class ProductSelector {
-    public products: [ProductModel];
+    public products: Array<ProductModel>;
     public selectedProduct: ProductModel;
     public animating: Boolean;
     private title: string;
     private enabled: boolean
 
-    constructor(private appdata:AppData) {
+    constructor(private appdata:AppDataService) {
         this.enabled = true
         var data = appdata.get()
 
         this.enabled = data.productselector.enabled
         this.title = data.productselector.title
-		this.products = []
+		this.products = new Array<ProductModel>()
         for (var i in data.productselector.products) {
             var product = data.productselector.products[i]
             this.products.push(

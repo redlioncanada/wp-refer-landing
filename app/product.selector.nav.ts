@@ -1,5 +1,5 @@
 import {Component, Input, Output, EventEmitter} from 'angular2/core'
-import {AppData} from './services/appdata.service'
+import {AppDataService} from './services/appdata.service'
 import {InsertBreakPipe} from './insertBreak.pipe'
 
 @Component({
@@ -16,7 +16,7 @@ export class ProductSelectorNav {
 	private ctaLink: string
 	private enabled: boolean
 
-	constructor(private appdata:AppData) {
+	constructor(private appdata: AppDataService) {
 		this.enabled = true
 		var data = appdata.get()
 

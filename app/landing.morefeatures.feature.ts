@@ -1,4 +1,4 @@
-import {bootstrap}    from 'angular2/platform/browser'
+import {bootstrap} from 'angular2/platform/browser'
 import {Component, Input, Inject, ElementRef} from 'angular2/core'
 
 declare var $: JQueryStatic;

@@ -5,7 +5,6 @@ import {Pipe} from 'angular2/core'
 })
 export class InsertBreakPipe {
 	transform(str) {
-		console.log(str)
 		return str.replace(/\s/g, '<br/>')
 	}
 }

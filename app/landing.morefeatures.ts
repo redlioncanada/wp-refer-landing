@@ -5,7 +5,13 @@ import {LoggerService} from './services/logger.service'
 
 @Component({
     selector: 'more-features',
-    templateUrl: 'app/views/landing.morefeatures.view.html',
+    template: `
+    	<div class="row {{!enabled ? 'hide' : ''}}">
+			<h2>{{title}}</h2>
+		    <more-features-feature *ngFor="#feature of moreFeatures; #i=index" [cta]="feature.cta" [text]="feature.text" [link]="feature.link" [title]="feature.title" [image]="feature.image" [alt]="feature.alt">
+		    </more-features-feature>
+		</div>
+    `,
     directives: [MoreFeaturesFeature],
 })
 export class MoreFeatures {

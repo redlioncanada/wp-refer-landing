@@ -5,7 +5,13 @@ import {AppDataService} from './services/appdata.service'
 
 @Component({
     selector: 'features',
-    templateUrl: 'app/views/landing.feature.view.html',
+    template: `
+        <div class="row {{!enabled ? 'hide': ''}}">
+            <feature-button *ngFor="#feature of featureButtons; #i=index" [timeline]="feature.timeline" [btnIcon]= "feature.btnIcon" [btnTitle]= "feature.btnTitle" [btnRollOverCopy]="feature.btnRollOverCopy" [btnRollOverCTA]="feature.btnRollOverCTA" [btnAlt]="feature.btnAlt" [btnType]="feature.btnType" [btnLink]="feature.btnLink">
+
+            </feature-button>
+        </div>
+    `,
 	directives: [FeatureButton],
 })
 

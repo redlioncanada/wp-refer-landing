@@ -5,7 +5,12 @@ import {LoggerService} from './services/logger.service'
 
 @Component({
     selector: 'banner',
-    templateUrl: 'app/views/landing.banner.view.html',
+    template: `
+    	<div class="{{!enabled ? 'hide': ''}}">
+			<img src="{{image}}"/>
+			<learn-more-button [link]="link" [text]="ctaText"></learn-more-button>
+		</div>
+    `,
     directives: [LearnMoreButton],
 })
 export class Banner {

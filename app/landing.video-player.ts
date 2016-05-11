@@ -6,7 +6,15 @@ import {AppDataService} from './services/appdata.service'
 
 @Component({
     selector: 'videoplayer',
-    templateUrl: 'app/views/landing.video-player.view.html',
+    template: `
+    	<h2 class="{{!enabled ? 'hide': ''}}">{{title}}</h2>
+		<videoplayer-player class="{{!enabled ? 'hide': ''}}" [data]="videos" [currentId]="currentId"></videoplayer-player>
+		<ul class="{{!enabled ? 'hide': ''}}">
+			<li *ngFor="#video of videos; #i=index">
+				<videoplayer-selector (selectedVideo)="select($event)" [data]="video" [id]="i" [selected]="currentId == i"></videoplayer-selector>
+			</li>
+		</ul>
+    `,
 	directives: [VideoPlayerPlayer, VideoPlayerSelector]
 })
 export class VideoPlayer {

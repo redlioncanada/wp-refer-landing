@@ -3,7 +3,11 @@ import {AppDataService} from './services/appdata.service'
 
 @Component({
     selector: 'masthead',
-    templateUrl:'app/views/masthead.view.html'
+    template: `
+    	<div class="{{!enabled ? 'hide': ''}}">
+			<div id="wp-landing-masthead"><img src="{{image}}" alt="{{alt}}" /></div>
+		</div>
+    `
 })
 export class AppMasthead {
 	private image: string

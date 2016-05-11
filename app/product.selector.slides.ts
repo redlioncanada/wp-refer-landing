@@ -9,7 +9,14 @@ declare var $: JQueryStatic;
 
 @Component({
     selector: 'product-slides',
-    templateUrl: 'app/views/product.selector.slides.view.html',
+    template: `
+      <div class="row">
+        <div class="product-slide-background"></div>
+          <product-slide class="{{selectedProduct.prodId == product.prodId ? 'selected' : ''}}" *ngFor="#product of products; #i=index" [selected]="selectedProduct.prodId == product.prodId" [fridge]= "product.prodImage" [fridgeTitle]= "product.prodName" [fridgeDescription]="product.prodDescription" [fridgeUrl]="product.prodUrl" [fridgeId]="product.prodId" [ctaText]="product.ctaText" [fridgeAlt]="product.prodAlt">
+
+          </product-slide>
+      </div>
+    `,
     directives: [ProductSlide]
 })
 export class ProductSlides {

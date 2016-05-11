@@ -5,7 +5,20 @@ declare var $: JQueryStatic;
 
 @Component({
     selector: 'feature-button',
-    templateUrl: 'app/views/landing.feature.button.view.html',
+    template: `
+        <a href="{{btnLink}}">
+            <div class="wp-landing-feature-button" >
+                <!-- I don't know.  I just like spacing my code with comments -->
+                <div class="wp-landing-feature-button-up">
+                    <div class="wp-landing-feature-icon wp-landing-innerBtn"><img class="{{btnType}}" src={{btnIcon}} alt="{{btnAlt}}" /></div>
+                    <div class="wp-landing-feature-title wp-landing-innerBtn">{{btnTitle}}</div>
+                    <div class="wp-landing-feature-rule wp-landing-innerBtn"></div>
+                    <p class="wp-landing-over-copy">{{btnRollOverCopy}}</p>
+                    <p class="wp-landing-over-cta">{{btnRollOverCTA}}</p>
+                </div>
+            </div>
+        </a>
+    `
 })
 
 export class FeatureButton {

@@ -6,7 +6,15 @@ import {ProductModel} from './models/products.model'
 
 @Component({
     selector: 'product-selector',
-    templateUrl: 'app/views/product.selector.view.html',
+    template: `
+        <div class="row" class="{{!enabled ? 'hide' : ''}}">
+            <div>
+                <h2 class="title">{{title}}</h2>
+            </div>
+            <product-slides [products]="products" [selectedProduct]="selectedProduct" (isAnimating)="isAnimating($event)"></product-slides>
+            <product-selector-nav [products]="products" [selectedProduct]="selectedProduct" (productSelected)="productSelected($event)"></product-selector-nav>
+        </div>
+    `,
     directives: [ProductSlides, ProductSelectorNav],
 })
 export class ProductSelector {

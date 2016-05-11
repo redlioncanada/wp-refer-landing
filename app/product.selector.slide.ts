@@ -5,7 +5,15 @@ import {LearnMoreButton} from './landing.learn-more.button'
 
 @Component({
     selector: 'product-slide',
-    templateUrl: 'app/views/product.selector.singleSlide.view.html',
+    template: `
+        <div id="{{fridgeId}}" class="rl-wp-lndng-side">
+            <div class="rl-wp-lndng-fridge-title mobile">{{fridgeTitle}}</div>
+            <div class="rl-wp-lndng-fridge"><img class="{{fridge}}" src="{{fridge}}" alt="{{fridgeAlt}}" /></div>
+            <div class="rl-wp-lndng-fridge-title">{{fridgeTitle}}</div>
+            <div class="rl-wp-lndng-fridge-desc">{{fridgeDescription}}</div>
+            <learn-more-button [link]="fridgeUrl" [text]="ctaText"></learn-more-button>
+        </div>
+    `,
     directives: [LearnMoreButton]
 })
 export class ProductSlide {

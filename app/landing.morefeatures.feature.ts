@@ -5,7 +5,22 @@ declare var $: JQueryStatic;
 
 @Component({
     selector: 'more-features-feature',
-    templateUrl: 'app/views/landing.morefeatures.feature.view.html',
+    template: `
+    	<a href="{{link}}" target="_blank"><div>
+			<div>
+				<div class="hover">
+					<!-- <div class="text-container">
+						<div class="text-container-cell">
+							<p class="text">{{text}}</p>
+							<p class="cta">{{cta}}</p>
+						</div>
+					</div> -->
+					<img src="{{image}}" alt="{{alt}}"/>
+				</div>
+			</div>
+			<p class="bottom-text">{{title}}</p>
+		</div></a>
+    `
 
 })
 export class MoreFeaturesFeature {

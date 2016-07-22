@@ -125,6 +125,7 @@ product-selector {
         left: 165px;
         position: absolute;
         opacity: 0;
+        pointer-events: none;
 
         @media screen and (max-width: $mobileBreakpoint) {
             left: initial;

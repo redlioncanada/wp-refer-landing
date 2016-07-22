@@ -939,7 +939,8 @@ rl-wp-refer-landing {
     rl-wp-refer-landing product-selector .rl-wp-lndng-fridge {
       left: 165px;
       position: absolute;
-      opacity: 0; }
+      opacity: 0;
+      pointer-events: none; }
       @media screen and (max-width: 820px) {
         rl-wp-refer-landing product-selector .rl-wp-lndng-fridge {
           left: initial;

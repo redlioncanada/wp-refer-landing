@@ -26,6 +26,7 @@ export class AppDataService {
 			},
 			features: {
 				enabled: true,
+				title: 'Get Started Here',
 				features: [
 					{
 						image: "./public/images/refer-landing-shopping-cart.png",
@@ -51,7 +52,7 @@ export class AppDataService {
 						alt: "test",
 						desc: "Need help finding your refrigerator?",
 						cta: "Click Here",
-						link: "http://findmy.whirlpool.ca",
+						link: "http://findmy.whirlpool.ca/category/#/?category=Fridges",
 						type: "magnifier"
 					}
 				]
@@ -91,6 +92,24 @@ export class AppDataService {
 				title: "Must-See Innovation",
 				videos: [
 					{
+						id: 'Oad1C6ES6-4?',
+						thumb: './public/images/video-select-2.jpg',
+						title: 'Award-winning French Door Refrigerator',
+						alt: "test",
+						ctaTitle: 'Award-winning French Door Refrigerator',
+						cta: 'Play Video',
+						desc: 'This revolutionary, pantry-inspired layout is designed for the grocery items you shop for frequently, offering the most shelf-space in the industry. With up to 30% more storage space, this award-winning refrigerator can help you fit and find everything your family needs, right at your fingertips.',
+					},
+					{
+						id: 'XuEmiHpvpMs',
+						thumb: './public/images/video-select-3.jpg',
+						title: 'StoreRight<sup>&trade;</sup> and ReadySet<sup>&trade;</sup> Systems',
+						alt: "test",
+						ctaTitle: 'StoreRight<sup>&trade;</sup> and ReadySet<sup>&trade;</sup> Systems',
+						cta: 'Play Video',
+						desc: 'With advanced technology that senses and automatically adapts humidity levels, the StoreRight™ and ReadySet™ Systems help keep your fruits and vegetables fresher longer, and reduce freezer burn for your frozen foods. Plus, dual icemakers allow you to store more than twice the ice, so you always have plenty on hand.'
+					},
+					{
 						id: '8uqalJESFos',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Perfect Places<sup>&trade;</sup>',
@@ -99,24 +118,6 @@ export class AppDataService {
 						cta: 'Play Video',
 						desc: false
 					},
-					{
-						id: 'xI986ew0VD0',
-						thumb: './public/images/video-select-2.jpg',
-						title: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
-						alt: "test",
-						ctaTitle: 'Resource Saver<sup>&trade;</sup> & EasyView<sup>&trade;</sup>',
-						cta: 'Play Video',
-						desc: false,
-					},
-					{
-						id: 'j-SeXWbpEaw',
-						thumb: './public/images/video-select-3.jpg',
-						title: 'StoreRight<sup>&trade;</sup> System',
-						alt: "test",
-						ctaTitle: 'StoreRight<sup>&trade;</sup> System',
-						cta: 'Play Video',
-						desc: false
-					}
 				]
 			},
 			productselector: {
@@ -200,16 +201,17 @@ export class AppDataService {
 			},
 			features: {
 				enabled: true,
+				title: 'Get Started Here',
 				features: [
-					// {
-					// 	image: "./public/images/refer-landing-shopping-cart.png",
-					// 	title: "Guide D'achat",
-					// 	desc: "Éléments à considérer lorsque vous magasinez",
-					// 	alt: "test",
-					// 	cta: "Cliquez ici",
-					// 	link: "http://whirlpool.ca/fr_CA/",
-					// 	type: "cart"
-					// },
+					{
+						image: "./public/images/refer-landing-shopping-cart.png",
+						title: "Guide D'achat",
+						desc: "Éléments à considérer lorsque vous magasinez",
+						alt: "test",
+						cta: "Cliquez ici",
+						link: "/other-assets/fr_CA/pdf/Refer-Buying-Guide-WP-FR.pdf",
+						type: "cart"
+					},
 					{
 						image: "./public/images/refer-landing-star.png",
 						title: "Classements et Évaluations",
@@ -225,7 +227,7 @@ export class AppDataService {
 						desc: "Vous avez besoin d'aide pour trouver un réfrigérateur?",
 						alt: "test",
 						cta: "Cliquez ici",
-						link: "http://trouvermon.whirlpool.ca",
+						link: "http://trouvermon.whirlpool.ca/category/#/?category=Fridges",
 						type: "magnifier"
 					}
 				]
@@ -265,6 +267,24 @@ export class AppDataService {
 				title: "Innovation à voir absolument",
 				videos: [
 					{
+						image: './public/images/video-thumb-2.jpg',
+						thumb: './public/images/video-select-2.jpg',
+						title: 'Réfrigérateur à portes françaises primé',
+						ctaTitle: 'Réfrigérateur à portes françaises primé',
+						alt: "test",
+						cta: 'Voir',
+						desc: 'Cette configuration révolutionnaire inspirée d’un garde-manger est conçue pour vous permettre de ranger facilement les articles que vous achetez fréquemment, et offre le plus grand espace sur tablettes de l’industrie. Avec presque 30 % d’espace de rangement supplémentaire, ce réfrigérateur primé vous permet de loger, retrouver facilement et garder à portée de main tous les articles dont votre famille a besoin.',
+					},
+					{
+						image: './public/images/video-thumb-3.jpg',
+						thumb: './public/images/video-select-3.jpg',
+						title: 'Systèmes StoreRight<sup>&trade;</sup> et ReadySet<sup>&trade;</sup>',
+						ctaTitle: 'Grâce à une technologie perfectionnée qui détecte les niveaux d’humidité puis les adapte automatiquement, les systèmes StoreRight<sup>&trade;</sup> et ReadySet<sup>&trade;</sup> contribuent à prolonger la fraîcheur de vos fruits et légumes et à réduire les brûlures de congélation pour vos aliments surgelés. Par ailleurs, les deux machines à glaçons vous permettent d’entreposer deux fois plus de glace pour en avoir en permanence à portée de la main.',
+						alt: "test",
+						cta: 'Voir',
+						desc: 'Le système de rangement StoreRight™ préserve la fraîcheur des aliments et réduit les brûlures de congélation, grâce à une technologie de refroidissement perfectionnée et ajuste automatiquement les niveaux d\'humidité.'
+					},
+					{
 						image: './public/images/video-thumb-1.jpg',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Système de rangement Perfect Places<sup>&trade;</sup>',
@@ -273,24 +293,6 @@ export class AppDataService {
 						cta: 'Voir',
 						desc: 'La conception Whirlpool à double tiroir  offre cinq zones de rangement uniques pour mieux organiser vos articles. Il s\'agit de notre réfrigérateur le plus flexible à ce jour.'
 					},
-					{
-						image: './public/images/video-thumb-2.jpg',
-						thumb: './public/images/video-select-2.jpg',
-						title: 'Fonctions Resource Saver<sup>&trade;</sup> et EasyView<sup>&trade;</sup>',
-						ctaTitle: 'Fonctions Resource Saver<sup>&trade;</sup><br/>et EasyView<sup>&trade;</sup>',
-						alt: "test",
-						cta: 'Voir',
-						desc: 'Les réfrigérateurs les plus efficaces de l’industrie dans leur catégorie respective. Augmentez la souplesse de rangement de votre réfrigérateur et préservez la fraîcheur et le bon goût de vos fruits et légumes grâce au système de bacs à légumes triples EasyView™. Désormais, vous pouvez facilement accéder aux aliments grâce à la visibilité totale à travers le bac à légumes. De plus, vous pourrez ranger une grande variété d\'articles grâce aux trois tiroirs. Le contrôle automatique d\'humidité contribue également à maintenir la fraîcheur.',
-					},
-					{
-						image: './public/images/video-thumb-3.jpg',
-						thumb: './public/images/video-select-3.jpg',
-						title: 'Système de rangement StoreRight<sup>&trade;</sup>',
-						ctaTitle: 'Système de rangement StoreRight<sup>&trade;</sup>',
-						alt: "test",
-						cta: 'Voir',
-						desc: 'Le système de rangement StoreRight™ préserve la fraîcheur des aliments et réduit les brûlures de congélation, grâce à une technologie de refroidissement perfectionnée et ajuste automatiquement les niveaux d\'humidité.'
-					}
 				]
 			},
 			productselector: {

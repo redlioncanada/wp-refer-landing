@@ -8,8 +8,10 @@ import {VideoPlayer} from './landing.video-player'
     template: `
     	<div (click)="select()" class="{{selected ? 'selected' : ''}}">
 			<div class="wp-refer-landing-videoplayer-text">
-				<div class="wp-refer-landing-videoplayer-title" [innerHtml]="data.ctaTitle"></div>
-				<div class="wp-refer-landing-videoplayer-button">{{data.cta}}</div>
+				<div class="wp-refer-landing-videoplayer-text-inner">
+					<div class="wp-refer-landing-videoplayer-title" [innerHtml]="data.ctaTitle"></div>
+					<div class="wp-refer-landing-videoplayer-button">{{data.cta}}</div>
+				</div>
 			</div>
 			<img src="{{data.thumb}}" alt="{{data.alt}}"/>
 		</div>

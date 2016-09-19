@@ -36,16 +36,6 @@ videoplayer {
 		li:nth-child(2) img {
 			width: 101.5%;
 		}
-
-		li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
-			margin-top: -65px;
-		}
-
-		@media screen and (max-width: $mobileBreakpoint) {
-			li:nth-child(2) videoplayer-selector .wp-refer-landing-videoplayer-title {
-				margin-top: -23px;
-			}
-		}
 	}
 }
 
@@ -74,14 +64,12 @@ videoplayer-player {
 		padding: 28px 40px;
 		background-color: $videoPlayer-backgroundColor;
 		color: $videoPlayer-descColor;
-		margin-top: -5px;
 
 		.wp-refer-landing-videoplayer-description, .wp-refer-landing-videoplayer-title {
 			text-align: center;
 		}
-        
+
         .wp-refer-landing-videoplayer-description{
-        	margin-top: 10px;
             @media screen and (max-width: $mobileBreakpoint) {
                 font-size: 66%;
          	}
@@ -97,13 +85,9 @@ videoplayer-selector {
 		width: 100%;
 		position: absolute;
 		z-index: 2;
-        @media screen and (max-width: $mobileBreakpoint) {
-            top: -5px;
-        }
 
 
 		.wp-refer-landing-videoplayer-title, .wp-refer-landing-videoplayer-button {
-			top: 50%;
 			text-align: center;
 			color: $videoPlayer-copyColor;
 			border-radius: 15px;
@@ -111,7 +95,6 @@ videoplayer-selector {
 
 		.wp-refer-landing-videoplayer-title {
 			font-size: 2em;
-			margin-top: -20px;
 			width: 100%;
 			color: $videoPlayer-copyColor !important;
 
@@ -123,9 +106,9 @@ videoplayer-selector {
 		.wp-refer-landing-videoplayer-button {
 			font-size: 0.8em;
 			position: relative;
-			top: 60%;
 			width: 32%;
 			margin: 0 auto;
+			margin-top: 8px;
 			background-color: $accentColor;
 			line-height: 25px;
 			@include transition(0.2s);
@@ -135,8 +118,9 @@ videoplayer-selector {
 		}
 	}
 
-	.wp-refer-landing-videoplayer-text h2, .wp-refer-landing-videoplayer-text div {
-		position: absolute;
+	.wp-refer-landing-videoplayer-text-inner {
+		margin-top: 50%;
+		transform: translateY(-50%);
 	}
 
 	videoplayer-selector:hover {
@@ -183,42 +167,6 @@ videoplayer.fr {
 		@media screen and (max-width: $mobileBreakpoint) {
 			font-size: 0.8em;
         	line-height: 15px;
-		}
-	}
-
-	ul li:nth-child(1) {
-		videoplayer-selector {
-			.wp-refer-landing-videoplayer-title {
-				margin-top: -92px;
-
-				@media screen and (max-width: $mobileBreakpoint) {
-		        	margin-top: -23px;
-		        }
-			}
-		}
-	}
-
-	ul li:nth-child(2) {
-		videoplayer-selector {
-			.wp-refer-landing-videoplayer-title {
-				margin-top: -92px;
-
-				@media screen and (max-width: $mobileBreakpoint) {
-		        	margin-top: -23px;
-		        }
-			}
-		}
-	}
-
-	ul li:nth-child(3) {
-		videoplayer-selector {
-			.wp-refer-landing-videoplayer-title {
-				margin-top: -92px;
-
-				@media screen and (max-width: $mobileBreakpoint) {
-		        	margin-top: -23px;
-		        }
-			}
 		}
 	}
 

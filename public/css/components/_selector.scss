@@ -1,13 +1,13 @@
 product-selector {
 	width: 80%;
 	position: relative;
+    margin-top: 100px !important;
     
     h2{
         font-size: 3em;
         text-align: center;
         font-weight: 800;
         width: 100%;
-        margin-top: 50px;
         margin-bottom: 50px;
         @media screen and (max-width: 1366px) {
             font-size: 2em;

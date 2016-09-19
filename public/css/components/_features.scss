@@ -2,12 +2,32 @@ $featureButtonHeight: 285px;
 $featureButtonHeightMobile: 220px;
 
 features {
+    margin-bottom: 60px !important;
+
+    h2{
+        font-size: 3em;
+        text-align: center;
+        font-weight: 800;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        @media screen and (max-width: 1366px) {
+            font-size: 2em;
+            margin-top: -35px;
+            margin-bottom: 15px !important;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            margin-top: 40px;
+            margin-bottom: 0px;
+        }
+    }
+
     @include transition(0.5s);
     .row{
         width: 100%;
         height: 300px;
         float: none;
-        border: 4px solid $accentColor;
     }
     @media screen and (max-width: 1275px) {
         .row {
@@ -15,11 +35,6 @@ features {
             position: relative;
             left: 13%;
             height: $featureButtonHeightMobile;
-        }
-
-        .wp-landing-feature-button:after {
-            height: $featureButtonHeightMobile*0.7 !important;
-            top: $featureButtonHeightMobile*0.3 / 2 !important;
         }
     }
     @media screen and (max-width: 785px) {
@@ -80,7 +95,7 @@ features {
     }
 
     .wp-landing-feature-button-over{
-        opacity: 0;
+        // opacity: 0;
         z-index: 2;
         display: table;
         width: 100%;
@@ -105,7 +120,7 @@ features {
         color: $titleColor;
         @include Helvetica-Bold;
         top: 198px;
-        opacity: 0;
+        // opacity: 0;
         font-size: smaller;
         @include transition(0.2s);
 
@@ -162,17 +177,29 @@ features {
         position: absolute;
     }
 
+    feature-button:first-child .wp-landing-feature-button {
+        padding-left: 0;
+    }
+    feature-button:last-child .wp-landing-feature-button {
+        padding-right: 0;
+    }
     .wp-landing-feature-button {
-        width: 33%;
-        padding: 2px;
+        width: 33.333333333333333%;
         float: left;
+        padding: 0 3px;
         height: $featureButtonHeight;
         position: relative;
         box-sizing: border-box;
         @include transition(0.5s);
 
         @media screen and (max-width: 1275px) {
-            height: 150px;
+            height: 220px;
+        }
+
+        .wp-landing-feature-button-padding {
+            border: 4px solid $accentColor;
+            width: 100%;
+            height: inherit;
         }
 
         .wp-landing-feature-button-up {
@@ -202,16 +229,6 @@ features {
         }
     }
 
-    .wp-landing-feature-button:after {
-        content: ' ';
-        width: 1px;
-        height: $featureButtonHeight*0.7;
-        top: $featureButtonHeight*0.3 / 2;
-        position: absolute;
-        right: 0;
-        border-left: 1px dashed #585858;
-    }
-
     .wp-landing-feature-button:hover .wp-landing-over-copy {
         opacity: 1;
     }
@@ -221,23 +238,6 @@ features {
             opacity: 1;
         }
     }
-
-    feature-button:first-of-type {
-        .wp-landing-feature-button {
-            margin-left: 0px;
-        }
-    }
-
-    feature-button:last-of-type {
-        .wp-landing-feature-button {
-            margin-right: 0px;
-            margin-left: 2px;
-        }
-
-        .wp-landing-feature-button:after {
-            content: initial;
-        }
-    }
 }
 
 features.fr {
@@ -245,21 +245,11 @@ features.fr {
         @media screen and (max-width: 1275px) {
             $featureButtonHeight: 235px;
             height: $featureButtonHeight;
-
-            .wp-landing-feature-button:after {
-                height: $featureButtonHeightMobile*0.7 !important;
-                top: $featureButtonHeightMobile*0.3 / 2 !important;
-            }
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
             $featureButtonHeight: 230px;
             height: $featureButtonHeight;
-
-            .wp-landing-feature-button:after {
-                height: $featureButtonHeightMobile*0.7 !important;
-                top: $featureButtonHeightMobile*0.3 / 2 !important;
-            }
         }
     }
 

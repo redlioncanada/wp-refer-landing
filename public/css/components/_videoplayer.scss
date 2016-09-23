@@ -8,7 +8,7 @@ videoplayer {
             font-size: 2em;
         }
 	}
-    
+
     h2.wp-refer-landing-videoplayer-title{
     	@include header-text;
          @media screen and (max-width: $mobileBreakpoint) {

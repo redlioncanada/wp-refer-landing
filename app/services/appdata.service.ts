@@ -52,7 +52,7 @@ export class AppDataService {
 						alt: "test",
 						desc: "Need help finding your refrigerator?",
 						cta: "Click Here",
-						link: "http://findmy.whirlpool.ca/category/#/?category=Fridges",
+						link: "http://findmy.whirlpool.ca/#/?category=Fridges",
 						type: "magnifier"
 					}
 				]
@@ -92,7 +92,7 @@ export class AppDataService {
 				title: "Must-See Innovation",
 				videos: [
 					{
-						id: 'Oad1C6ES6-4?',
+						id: 'XuEmiHpvpMs',
 						thumb: './public/images/video-select-2.jpg',
 						title: 'Award-winning French Door Refrigerator',
 						alt: "test",
@@ -101,7 +101,7 @@ export class AppDataService {
 						desc: 'This revolutionary, pantry-inspired layout is designed for the grocery items you shop for frequently, offering the most shelf-space in the industry. With up to 30% more storage space, this award-winning refrigerator can help you fit and find everything your family needs, right at your fingertips.',
 					},
 					{
-						id: 'XuEmiHpvpMs',
+						id: 'Oad1C6ES6-4?',
 						thumb: './public/images/video-select-3.jpg',
 						title: 'StoreRight<sup>&trade;</sup> and ReadySet<sup>&trade;</sup> Systems',
 						alt: "test",
@@ -201,8 +201,9 @@ export class AppDataService {
 			},
 			features: {
 				enabled: true,
-				title: 'Get Started Here',
+				title: 'Commencez ici',
 				features: [
+
 					{
 						image: "./public/images/refer-landing-shopping-cart.png",
 						title: "Guide D'achat",
@@ -227,7 +228,7 @@ export class AppDataService {
 						desc: "Vous avez besoin d'aide pour trouver un réfrigérateur?",
 						alt: "test",
 						cta: "Cliquez ici",
-						link: "http://trouvermon.whirlpool.ca/category/#/?category=Fridges",
+						link: "http://trouvermon.whirlpool.ca/#/?category=Fridges",
 						type: "magnifier"
 					}
 				]
@@ -279,10 +280,10 @@ export class AppDataService {
 						image: './public/images/video-thumb-3.jpg',
 						thumb: './public/images/video-select-3.jpg',
 						title: 'Systèmes StoreRight<sup>&trade;</sup> et ReadySet<sup>&trade;</sup>',
-						ctaTitle: 'Grâce à une technologie perfectionnée qui détecte les niveaux d’humidité puis les adapte automatiquement, les systèmes StoreRight<sup>&trade;</sup> et ReadySet<sup>&trade;</sup> contribuent à prolonger la fraîcheur de vos fruits et légumes et à réduire les brûlures de congélation pour vos aliments surgelés. Par ailleurs, les deux machines à glaçons vous permettent d’entreposer deux fois plus de glace pour en avoir en permanence à portée de la main.',
+						ctaTitle: 'Systèmes StoreRight<sup>&trade;</sup> et ReadySet<sup>&trade;</sup>',
 						alt: "test",
 						cta: 'Voir',
-						desc: 'Le système de rangement StoreRight™ préserve la fraîcheur des aliments et réduit les brûlures de congélation, grâce à une technologie de refroidissement perfectionnée et ajuste automatiquement les niveaux d\'humidité.'
+						desc: 'Grâce à une technologie perfectionnée qui détecte les niveaux d’humidité puis les adapte automatiquement, les systèmes StoreRight™ et ReadySet™ contribuent à prolonger la fraîcheur de vos fruits et légumes et à réduire les brûlures de congélation pour vos aliments surgelés. Par ailleurs, les deux machines à glaçons vous permettent d’entreposer deux fois plus de glace pour en avoir en permanence à portée de la main.  '
 					},
 					{
 						image: './public/images/video-thumb-1.jpg',
